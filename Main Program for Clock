@@ -1,0 +1,9234 @@
+org 0000h
+	mov p0,#00h
+	mov p1,#00h
+	mov p2,#00h
+	mov p3,#00h
+start:
+
+	
+	mov r0,#100
+back1:
+	mov r1,#100
+back0:
+	lcall sec0
+	lcall min0
+	lcall hour0
+	djnz r1,back0
+	djnz r0,back1
+	
+	
+	
+	mov r0,#100
+back3:
+	mov r1,#100
+back2:
+	lcall sec1
+	lcall min0
+	lcall hour0
+	djnz r1,back2
+	djnz r0,back3
+	
+	
+	
+	mov r0,#100
+back5:
+	mov r1,#100
+back4:
+	lcall sec2
+	lcall min0
+	lcall hour0
+	djnz r1,back4
+	djnz r0,back5
+	
+	
+	mov r0,#100
+back7:
+	mov r1,#100
+back6:
+	lcall sec3
+	lcall min0
+	lcall hour0
+	djnz r1,back6
+	djnz r0,back7
+	
+	
+	mov r0,#100
+back9:
+	mov r1,#100
+back8:
+	lcall sec4
+	lcall min0
+	lcall hour0
+	djnz r1,back8
+	djnz r0,back9
+	
+	
+	mov r0,#100
+back11:
+	mov r1,#100
+back10:
+	lcall sec5
+	lcall min0
+	lcall hour0
+	djnz r1,back10
+	djnz r0,back11
+	
+	
+	mov r0,#100
+back13:
+	mov r1,#100
+back12:
+	lcall sec6
+	lcall min0
+	lcall hour0
+	djnz r1,back12
+	djnz r0,back13
+	
+	
+		mov r0,#100
+back15:
+	mov r1,#100
+back14:
+	lcall sec7
+	lcall min0
+	lcall hour0
+	djnz r1,back14
+	djnz r0,back15
+	
+	
+	
+	mov r0,#100
+back17:
+	mov r1,#100
+back16:
+	lcall sec8
+	lcall min0
+	lcall hour0
+	djnz r1,back16
+	djnz r0,back17
+	
+	
+	
+	mov r0,#100
+back19:
+	mov r1,#100
+back18:
+	lcall sec9
+	lcall min0
+	lcall hour0
+	djnz r1,back18
+	djnz r0,back19
+	
+	
+	mov r0,#100
+back21:
+	mov r1,#100
+back20:
+	lcall sec10
+	lcall min0
+	lcall hour0
+	djnz r1,back20
+	djnz r0,back21
+	
+	
+	mov r0,#100
+back23:
+	mov r1,#100
+back22:
+	lcall sec11
+	lcall min0
+	lcall hour0
+	djnz r1,back22
+	djnz r0,back23
+	
+	
+	mov r0,#100
+back25:
+	mov r1,#100
+back24:
+	lcall sec12
+	lcall min0
+	lcall hour0
+	djnz r1,back24
+	djnz r0,back25
+	
+	
+	mov r0,#100
+back27:
+	mov r1,#100
+back26:
+	lcall sec13
+	lcall min0
+	lcall hour0
+	djnz r1,back26
+	djnz r0,back27
+	
+	
+		mov r0,#100
+back29:
+	mov r1,#100
+back28:
+	lcall sec14
+	lcall min0
+	lcall hour0
+	djnz r1,back28
+	djnz r0,back29
+	
+	
+	
+	mov r0,#100
+back31:
+	mov r1,#100
+back30:
+	lcall sec15
+	lcall min0
+	lcall hour0
+	djnz r1,back30
+	djnz r0,back31
+	
+	
+	
+	mov r0,#100
+back33:
+	mov r1,#100
+back32:
+	lcall sec16
+	lcall min0
+	lcall hour0
+	djnz r1,back32
+	djnz r0,back33
+	
+	
+	mov r0,#100
+back35:
+	mov r1,#100
+back34:
+	lcall sec17
+	lcall min0
+	lcall hour0
+	djnz r1,back34
+	djnz r0,back35
+	
+	
+	mov r0,#100
+back37:
+	mov r1,#100
+back36:
+	lcall sec18
+	lcall min0
+	lcall hour0
+	djnz r1,back36
+	djnz r0,back37
+	
+	
+	mov r0,#100
+back39:
+	mov r1,#100
+back38:
+	lcall sec19
+	lcall min0
+	lcall hour0
+	djnz r1,back38
+	djnz r0,back39
+	
+	
+	mov r0,#100
+back41:
+	mov r1,#100
+back40:
+	lcall sec20
+	lcall min0
+	lcall hour0
+	djnz r1,back40
+	djnz r0,back41
+	
+	
+		mov r0,#100
+back43:
+	mov r1,#100
+back42:
+	lcall sec21
+	lcall min0
+	lcall hour0
+	djnz r1,back42
+	djnz r0,back43
+	
+	
+	
+	mov r0,#100
+back45:
+	mov r1,#100
+back44:
+	lcall sec22
+	lcall min0
+	lcall hour0
+	djnz r1,back44
+	djnz r0,back45
+	
+	
+	
+	mov r0,#100
+back47:
+	mov r1,#100
+back46:
+	lcall sec23
+	lcall min0
+	lcall hour0
+	djnz r1,back46
+	djnz r0,back47
+	
+	
+	mov r0,#100
+back49:
+	mov r1,#100
+back48:
+	lcall sec24
+	lcall min0
+	lcall hour0
+	djnz r1,back48
+	djnz r0,back49
+	
+	
+	mov r0,#100
+back51:
+	mov r1,#100
+back50:
+	lcall sec25
+	lcall min0
+	lcall hour0
+	djnz r1,back50
+	djnz r0,back51
+	
+	
+	mov r0,#100
+back53:
+	mov r1,#100
+back52:
+	lcall sec26
+	lcall min0
+	lcall hour0
+	djnz r1,back52
+	djnz r0,back53
+	
+	
+	mov r0,#100
+back55:
+	mov r1,#100
+back54:
+	lcall sec27
+	lcall min0
+	lcall hour0
+	djnz r1,back54
+	djnz r0,back55
+	
+	
+		mov r0,#100
+back57:
+	mov r1,#100
+back56:
+	lcall sec28
+	lcall min0
+	lcall hour0
+	djnz r1,back56
+	djnz r0,back57
+	
+	
+	
+	mov r0,#100
+back59:
+	mov r1,#100
+back58:
+	lcall sec29
+	lcall min0
+	lcall hour0
+	djnz r1,back58
+	djnz r0,back59
+	
+	
+	
+	mov r0,#100
+back61:
+	mov r1,#100
+back60:
+	lcall sec30
+	lcall min0
+	lcall hour0
+	djnz r1,back60
+	djnz r0,back61
+	
+	
+	mov r0,#100
+back63:
+	mov r1,#100
+back62:
+	lcall sec31
+	lcall min0
+	lcall hour0
+	djnz r1,back62
+	djnz r0,back63
+	
+	
+	mov r0,#100
+back65:
+	mov r1,#100
+back64:
+	lcall sec32
+	lcall min0
+	lcall hour0
+	djnz r1,back64
+	djnz r0,back65
+	
+	
+	mov r0,#100
+back67:
+	mov r1,#100
+back66:
+	lcall sec33
+	lcall min0
+	lcall hour0
+	djnz r1,back66
+	djnz r0,back67
+	
+	
+	mov r0,#100
+back69:
+	mov r1,#100
+back68:
+	lcall sec34
+	lcall min0
+	lcall hour0
+	djnz r1,back68
+	djnz r0,back69
+	
+	
+		mov r0,#100
+back71:
+	mov r1,#100
+back70:
+	lcall sec35
+	lcall min0
+	lcall hour0
+	djnz r1,back70
+	djnz r0,back71
+	
+	
+	
+	mov r0,#100
+back73:
+	mov r1,#100
+back72:
+	lcall sec36
+	lcall min0
+	lcall hour0
+	djnz r1,back72
+	djnz r0,back73
+	
+	
+	
+	mov r0,#100
+back75:
+	mov r1,#100
+back74:
+	lcall sec37
+	lcall min0
+	lcall hour0
+	djnz r1,back74
+	djnz r0,back75
+	
+	
+	mov r0,#100
+back77:
+	mov r1,#100
+back76:
+	lcall sec38
+	lcall min0
+	lcall hour0
+	djnz r1,back76
+	djnz r0,back77
+	
+	
+	mov r0,#100
+back79:
+	mov r1,#100
+back78:
+	lcall sec39
+	lcall min0
+	lcall hour0
+	djnz r1,back78
+	djnz r0,back79
+	
+	
+	mov r0,#100
+back81:
+	mov r1,#100
+back80:
+	lcall sec40
+	lcall min0
+	lcall hour0
+	djnz r1,back80
+	djnz r0,back81
+	
+	
+	mov r0,#100
+back83:
+	mov r1,#100
+back82:
+	lcall sec41
+	lcall min0
+	lcall hour0
+	djnz r1,back82
+	djnz r0,back83
+	
+	
+		mov r0,#100
+back85:
+	mov r1,#100
+back84:
+	lcall sec42
+	lcall min0
+	lcall hour0
+	djnz r1,back84
+	djnz r0,back85
+	
+	
+	
+	mov r0,#100
+back87:
+	mov r1,#100
+back86:
+	lcall sec43
+	lcall min0
+	lcall hour0
+	djnz r1,back86
+	djnz r0,back87
+	
+	
+	
+	mov r0,#100
+back89:
+	mov r1,#100
+back88:
+	lcall sec44
+	lcall min0
+	lcall hour0
+	djnz r1,back88
+	djnz r0,back89
+	
+	
+	mov r0,#100
+back91:
+	mov r1,#100
+back90:
+	lcall sec45
+	lcall min0
+	lcall hour0
+	djnz r1,back90
+	djnz r0,back91
+	
+	
+	mov r0,#100
+back93:
+	mov r1,#100
+back92:
+	lcall sec46
+	lcall min0
+	lcall hour0
+	djnz r1,back92
+	djnz r0,back93
+	
+	
+	mov r0,#100
+back95:
+	mov r1,#100
+back94:
+	lcall sec47
+	lcall min0
+	lcall hour0
+	djnz r1,back94
+	djnz r0,back95
+	
+	
+	mov r0,#100
+back97:
+	mov r1,#100
+back96:
+	lcall sec48
+	lcall min0
+	lcall hour0
+	djnz r1,back96
+	djnz r0,back97
+	
+	
+		mov r0,#100
+back99:
+	mov r1,#100
+back98:
+	lcall sec49
+	lcall min0
+	lcall hour0
+	djnz r1,back98
+	djnz r0,back99
+	
+	
+	
+	mov r0,#100
+back101:
+	mov r1,#100
+back100:
+	lcall sec50
+	lcall min0
+	lcall hour0
+	djnz r1,back100
+	djnz r0,back101
+	
+	
+	
+	mov r0,#100
+back103:
+	mov r1,#100
+back102:
+	lcall sec51
+	lcall min0
+	lcall hour0
+	djnz r1,back102
+	djnz r0,back103
+	
+	
+	mov r0,#100
+back105:
+	mov r1,#100
+back104:
+	lcall sec52
+	lcall min0
+	lcall hour0
+	djnz r1,back104
+	djnz r0,back105
+	
+	
+	mov r0,#100
+back107:
+	mov r1,#100
+back106:
+	lcall sec53
+	lcall min0
+	lcall hour0
+	djnz r1,back106
+	djnz r0,back107
+	
+	
+	mov r0,#100
+back109:
+	mov r1,#100
+back108:
+	lcall sec54
+	lcall min0
+	lcall hour0
+	djnz r1,back108
+	djnz r0,back109
+	
+	
+	mov r0,#100
+back111:
+	mov r1,#100
+back110:
+	lcall sec55
+	lcall min0
+	lcall hour0
+	djnz r1,back110
+	djnz r0,back111
+	
+	
+	mov r0,#100
+back113:
+	mov r1,#100
+back112:
+	lcall sec56
+	lcall min0
+	lcall hour0
+	djnz r1,back112
+	djnz r0,back113
+	
+	
+	mov r0,#100
+back115:
+	mov r1,#100
+back114:
+	lcall sec57
+	lcall min0
+	lcall hour0
+	djnz r1,back114
+	djnz r0,back115
+	
+	
+	mov r0,#100
+back117:
+	mov r1,#100
+back116:
+	lcall sec58
+	lcall min0
+	lcall hour0
+	djnz r1,back116
+	djnz r0,back117
+	
+	
+	mov r0,#100
+back119:
+	mov r1,#100
+back118:
+	lcall sec59
+	lcall min0
+	lcall hour0
+	djnz r1,back118
+	djnz r0,back119
+	
+	mov r0,#100
+back1a:
+	mov r1,#100
+back0a:
+	lcall sec0
+	lcall min1
+	lcall hour0
+	djnz r1,back0a
+	djnz r0,back1a
+	
+	
+	
+	mov r0,#100
+back3a:
+	mov r1,#100
+back2a:
+	lcall sec1
+	lcall min1
+	lcall hour0
+	djnz r1,back2a
+	djnz r0,back3a
+	
+	
+	
+	mov r0,#100
+back5a:
+	mov r1,#100
+back4a:
+	lcall sec2
+	lcall min1
+	lcall hour0
+	djnz r1,back4a
+	djnz r0,back5a
+	
+	
+	mov r0,#100
+back7a:
+	mov r1,#100
+back6a:
+	lcall sec3
+	lcall min1
+	lcall hour0
+	djnz r1,back6a
+	djnz r0,back7a
+	
+	
+	mov r0,#100
+back9a:
+	mov r1,#100
+back8a:
+	lcall sec4
+	lcall min1
+	lcall hour0
+	djnz r1,back8a
+	djnz r0,back9a
+	
+	
+	mov r0,#100
+back11a:
+	mov r1,#100
+back10a:
+	lcall sec5
+	lcall min1
+	lcall hour0
+	djnz r1,back10a
+	djnz r0,back11a
+	
+	
+	mov r0,#100
+back13a:
+	mov r1,#100
+back12a:
+	lcall sec6
+	lcall min1
+	lcall hour0
+	djnz r1,back12a
+	djnz r0,back13a
+	
+	
+		mov r0,#100
+back15a:
+	mov r1,#100
+back14a:
+	lcall sec7
+	lcall min1
+	lcall hour0
+	djnz r1,back14a
+	djnz r0,back15a
+	
+	
+	
+	mov r0,#100
+back17a:
+	mov r1,#100
+back16a:
+	lcall sec8
+	lcall min1
+	lcall hour0
+	djnz r1,back16a
+	djnz r0,back17a
+	
+	
+	
+	mov r0,#100
+back19a:
+	mov r1,#100
+back18a:
+	lcall sec9
+	lcall min1
+	lcall hour0
+	djnz r1,back18a
+	djnz r0,back19a
+	
+	
+	mov r0,#100
+back21a:
+	mov r1,#100
+back20a:
+	lcall sec10
+	lcall min1
+	lcall hour0
+	djnz r1,back20a
+	djnz r0,back21a
+	
+	
+	mov r0,#100
+back23a:
+	mov r1,#100
+back22a:
+	lcall sec11
+	lcall min1
+	lcall hour0
+	djnz r1,back22a
+	djnz r0,back23a
+	
+	
+	mov r0,#100
+back25a:
+	mov r1,#100
+back24a:
+	lcall sec12
+	lcall min1
+	lcall hour0
+	djnz r1,back24a
+	djnz r0,back25a
+	
+	
+	mov r0,#100
+back27a:
+	mov r1,#100
+back26a:
+	lcall sec13
+	lcall min1
+	lcall hour0
+	djnz r1,back26a
+	djnz r0,back27a
+	
+	
+		mov r0,#100
+back29a:
+	mov r1,#100
+back28a:
+	lcall sec14
+	lcall min1
+	lcall hour0
+	djnz r1,back28a
+	djnz r0,back29a
+	
+	
+	
+	mov r0,#100
+back31a:
+	mov r1,#100
+back30a:
+	lcall sec15
+	lcall min1
+	lcall hour0
+	djnz r1,back30a
+	djnz r0,back31a
+	
+	
+	
+	mov r0,#100
+back33a:
+	mov r1,#100
+back32a:
+	lcall sec16
+	lcall min1
+	lcall hour0
+	djnz r1,back32a
+	djnz r0,back33a
+	
+	
+	mov r0,#100
+back35a:
+	mov r1,#100
+back34a:
+	lcall sec17
+	lcall min1
+	lcall hour0
+	djnz r1,back34a
+	djnz r0,back35a
+	
+	
+	mov r0,#100
+back37a:
+	mov r1,#100
+back36a:
+	lcall sec18
+	lcall min1
+	lcall hour0
+	djnz r1,back36a
+	djnz r0,back37a
+	
+	
+	mov r0,#100
+back39a:
+	mov r1,#100
+back38a:
+	lcall sec19
+	lcall min1
+	lcall hour0
+	djnz r1,back38a
+	djnz r0,back39a
+	
+	
+	mov r0,#100
+back41a:
+	mov r1,#100
+back40a:
+	lcall sec20
+	lcall min1
+	lcall hour0
+	djnz r1,back40a
+	djnz r0,back41a
+	
+	
+		mov r0,#100
+back43a:
+	mov r1,#100
+back42a:
+	lcall sec21
+	lcall min1
+	lcall hour0
+	djnz r1,back42a
+	djnz r0,back43a
+	
+	
+	
+	mov r0,#100
+back45a:
+	mov r1,#100
+back44a:
+	lcall sec22
+	lcall min1
+	lcall hour0
+	djnz r1,back44a
+	djnz r0,back45a
+	
+	
+	
+	mov r0,#100
+back47a:
+	mov r1,#100
+back46a:
+	lcall sec23
+	lcall min1
+	lcall hour0
+	djnz r1,back46a
+	djnz r0,back47a
+	
+	
+	mov r0,#100
+back49a:
+	mov r1,#100
+back48a:
+	lcall sec24
+	lcall min1
+	lcall hour0
+	djnz r1,back48a
+	djnz r0,back49a
+	
+	
+	mov r0,#100
+back51a:
+	mov r1,#100
+back50a:
+	lcall sec25
+	lcall min1
+	lcall hour0
+	djnz r1,back50a
+	djnz r0,back51a
+	
+	
+	mov r0,#100
+back53a:
+	mov r1,#100
+back52a:
+	lcall sec26
+	lcall min1
+	lcall hour0
+	djnz r1,back52a
+	djnz r0,back53a
+	
+	
+	mov r0,#100
+back55a:
+	mov r1,#100
+back54a:
+	lcall sec27
+	lcall min1
+	lcall hour0
+	djnz r1,back54a
+	djnz r0,back55a
+	
+	
+		mov r0,#100
+back57a:
+	mov r1,#100
+back56a:
+	lcall sec28
+	lcall min1
+	lcall hour0
+	djnz r1,back56a
+	djnz r0,back57a
+	
+	
+	
+	mov r0,#100
+back59a:
+	mov r1,#100
+back58a:
+	lcall sec29
+	lcall min1
+	lcall hour0
+	djnz r1,back58a
+	djnz r0,back59a
+	
+	
+	
+	mov r0,#100
+back61a:
+	mov r1,#100
+back60a:
+	lcall sec30
+	lcall min1
+	lcall hour0
+	djnz r1,back60a
+	djnz r0,back61a
+	
+	
+	mov r0,#100
+back63a:
+	mov r1,#100
+back62a:
+	lcall sec31
+	lcall min1
+	lcall hour0
+	djnz r1,back62a
+	djnz r0,back63a
+	
+	
+	mov r0,#100
+back65a:
+	mov r1,#100
+back64a:
+	lcall sec32
+	lcall min1
+	lcall hour0
+	djnz r1,back64a
+	djnz r0,back65a
+	
+	
+	mov r0,#100
+back67a:
+	mov r1,#100
+back66a:
+	lcall sec33
+	lcall min1
+	lcall hour0
+	djnz r1,back66a
+	djnz r0,back67a
+	
+	
+	mov r0,#100
+back69a:
+	mov r1,#100
+back68a:
+	lcall sec34
+	lcall min1
+	lcall hour0
+	djnz r1,back68a
+	djnz r0,back69a
+	
+	
+		mov r0,#100
+back71a:
+	mov r1,#100
+back70a:
+	lcall sec35
+	lcall min1
+	lcall hour0
+	djnz r1,back70a
+	djnz r0,back71a
+	
+	
+	
+	mov r0,#100
+back73a:
+	mov r1,#100
+back72a:
+	lcall sec36
+	lcall min1
+	lcall hour0
+	djnz r1,back72a
+	djnz r0,back73a
+	
+	
+	
+	mov r0,#100
+back75a:
+	mov r1,#100
+back74a:
+	lcall sec37
+	lcall min1
+	lcall hour0
+	djnz r1,back74a
+	djnz r0,back75a
+	
+	
+	mov r0,#100
+back77a:
+	mov r1,#100
+back76a:
+	lcall sec38
+	lcall min1
+	lcall hour0
+	djnz r1,back76a
+	djnz r0,back77a
+	
+	
+	mov r0,#100
+back79a:
+	mov r1,#100
+back78a:
+	lcall sec39
+	lcall min1
+	lcall hour0
+	djnz r1,back78a
+	djnz r0,back79a
+	
+	
+	mov r0,#100
+back81a:
+	mov r1,#100
+back80a:
+	lcall sec40
+	lcall min1
+	lcall hour0
+	djnz r1,back80a
+	djnz r0,back81a
+	
+	
+	mov r0,#100
+back83a:
+	mov r1,#100
+back82a:
+	lcall sec41
+	lcall min1
+	lcall hour0
+	djnz r1,back82a
+	djnz r0,back83a
+	
+	
+		mov r0,#100
+back85a:
+	mov r1,#100
+back84a:
+	lcall sec42
+	lcall min1
+	lcall hour0
+	djnz r1,back84a
+	djnz r0,back85a
+	
+	
+	
+	mov r0,#100
+back87a:
+	mov r1,#100
+back86a:
+	lcall sec43
+	lcall min1
+	lcall hour0
+	djnz r1,back86a
+	djnz r0,back87a
+	
+	
+	
+	mov r0,#100
+back89a:
+	mov r1,#100
+back88a:
+	lcall sec44
+	lcall min1
+	lcall hour0
+	djnz r1,back88a
+	djnz r0,back89a
+	
+	
+	mov r0,#100
+back91a:
+	mov r1,#100
+back90a:
+	lcall sec45
+	lcall min1
+	lcall hour0
+	djnz r1,back90a
+	djnz r0,back91a
+	
+	
+	mov r0,#100
+back93a:
+	mov r1,#100
+back92a:
+	lcall sec46
+	lcall min1
+	lcall hour0
+	djnz r1,back92a
+	djnz r0,back93a
+	
+	
+	mov r0,#100
+back95a:
+	mov r1,#100
+back94a:
+	lcall sec47
+	lcall min1
+	lcall hour0
+	djnz r1,back94a
+	djnz r0,back95a
+	
+	
+	mov r0,#100
+back97a:
+	mov r1,#100
+back96a:
+	lcall sec48
+	lcall min1
+	lcall hour0
+	djnz r1,back96a
+	djnz r0,back97a
+	
+	
+		mov r0,#100
+back99a:
+	mov r1,#100
+back98a:
+	lcall sec49
+	lcall min1
+	lcall hour0
+	djnz r1,back98a
+	djnz r0,back99a
+	
+	
+	
+	mov r0,#100
+back101a:
+	mov r1,#100
+back100a:
+	lcall sec50
+	lcall min1
+	lcall hour0
+	djnz r1,back100a
+	djnz r0,back101a
+	
+	
+	
+	mov r0,#100
+back103a:
+	mov r1,#100
+back102a:
+	lcall sec51
+	lcall min1
+	lcall hour0
+	djnz r1,back102a
+	djnz r0,back103a
+	
+	
+	mov r0,#100
+back105a:
+	mov r1,#100
+back104a:
+	lcall sec52
+	lcall min1
+	lcall hour0
+	djnz r1,back104a
+	djnz r0,back105a
+	
+	
+	mov r0,#100
+back107a:
+	mov r1,#100
+back106a:
+	lcall sec53
+	lcall min1
+	lcall hour0
+	djnz r1,back106a
+	djnz r0,back107a
+	
+	
+	mov r0,#100
+back109a:
+	mov r1,#100
+back108a:
+	lcall sec54
+	lcall min1
+	lcall hour0
+	djnz r1,back108a
+	djnz r0,back109a
+	
+	
+	mov r0,#100
+back111a:
+	mov r1,#100
+back110a:
+	lcall sec55
+	lcall min1
+	lcall hour0
+	djnz r1,back110a
+	djnz r0,back111a
+	
+	
+	mov r0,#100
+back113a:
+	mov r1,#100
+back112a:
+	lcall sec56
+	lcall min1
+	lcall hour0
+	djnz r1,back112a
+	djnz r0,back113a
+	
+	
+	mov r0,#100
+back115a:
+	mov r1,#100
+back114a:
+	lcall sec57
+	lcall min1
+	lcall hour0
+	djnz r1,back114a
+	djnz r0,back115a
+	
+	
+	mov r0,#100
+back117a:
+	mov r1,#100
+back116a:
+	lcall sec58
+	lcall min1
+	lcall hour0
+	djnz r1,back116a
+	djnz r0,back117a
+	
+	
+	mov r0,#100
+back119a:
+	mov r1,#100
+back118a:
+	lcall sec59
+	lcall min1
+	lcall hour0
+	djnz r1,back118a
+	djnz r0,back119a
+	
+	
+	mov r0,#100
+back1b:
+	mov r1,#100
+back0b:
+	lcall sec0
+	lcall min2
+	lcall hour0
+	djnz r1,back0b
+	djnz r0,back1b
+	
+	
+	
+	mov r0,#100
+back3b:
+	mov r1,#100
+back2b:
+	lcall sec1
+	lcall min2
+	lcall hour0
+	djnz r1,back2b
+	djnz r0,back3b
+	
+	
+	
+	mov r0,#100
+back5b:
+	mov r1,#100
+back4b:
+	lcall sec2
+	lcall min2
+	lcall hour0
+	djnz r1,back4b
+	djnz r0,back5b
+	
+	
+	mov r0,#100
+back7b:
+	mov r1,#100
+back6b:
+	lcall sec3
+	lcall min2
+	lcall hour0
+	djnz r1,back6b
+	djnz r0,back7b
+	
+	
+	mov r0,#100
+back9b:
+	mov r1,#100
+back8b:
+	lcall sec4
+	lcall min2
+	lcall hour0
+	djnz r1,back8b
+	djnz r0,back9b
+	
+	
+	mov r0,#100
+back11b:
+	mov r1,#100
+back10b:
+	lcall sec5
+	lcall min2
+	lcall hour0
+	djnz r1,back10b
+	djnz r0,back11b
+	
+	
+	mov r0,#100
+back13b:
+	mov r1,#100
+back12b:
+	lcall sec6
+	lcall min2
+	lcall hour0
+	djnz r1,back12b
+	djnz r0,back13b
+	
+	
+		mov r0,#100
+back15b:
+	mov r1,#100
+back14b:
+	lcall sec7
+	lcall min2
+	lcall hour0
+	djnz r1,back14b
+	djnz r0,back15b
+	
+	
+	
+	mov r0,#100
+back17b:
+	mov r1,#100
+back16b:
+	lcall sec8
+	lcall min2
+	lcall hour0
+	djnz r1,back16b
+	djnz r0,back17b
+	
+	
+	
+	mov r0,#100
+back19b:
+	mov r1,#100
+back18b:
+	lcall sec9
+	lcall min2
+	lcall hour0
+	djnz r1,back18b
+	djnz r0,back19b
+	
+	
+	mov r0,#100
+back21b:
+	mov r1,#100
+back20b:
+	lcall sec10
+	lcall min2
+	lcall hour0
+	djnz r1,back20b
+	djnz r0,back21b
+	
+	
+	mov r0,#100
+back23b:
+	mov r1,#100
+back22b:
+	lcall sec11
+	lcall min2
+	lcall hour0
+	djnz r1,back22b
+	djnz r0,back23b
+	
+	
+	mov r0,#100
+back25b:
+	mov r1,#100
+back24b:
+	lcall sec12
+	lcall min2
+	lcall hour0
+	djnz r1,back24b
+	djnz r0,back25b
+	
+	
+	mov r0,#100
+back27b:
+	mov r1,#100
+back26b:
+	lcall sec13
+	lcall min2
+	lcall hour0
+	djnz r1,back26b
+	djnz r0,back27b
+	
+	
+		mov r0,#100
+back29b:
+	mov r1,#100
+back28b:
+	lcall sec14
+	lcall min2
+	lcall hour0
+	djnz r1,back28b
+	djnz r0,back29b
+	
+	
+	
+	mov r0,#100
+back31b:
+	mov r1,#100
+back30b:
+	lcall sec15
+	lcall min2
+	lcall hour0
+	djnz r1,back30b
+	djnz r0,back31b
+	
+	
+	
+	mov r0,#100
+back33b:
+	mov r1,#100
+back32b:
+	lcall sec16
+	lcall min2
+	lcall hour0
+	djnz r1,back32b
+	djnz r0,back33b
+	
+	
+	mov r0,#100
+back35b:
+	mov r1,#100
+back34b:
+	lcall sec17
+	lcall min2
+	lcall hour0
+	djnz r1,back34b
+	djnz r0,back35b
+	
+	
+	mov r0,#100
+back37b:
+	mov r1,#100
+back36b:
+	lcall sec18
+	lcall min2
+	lcall hour0
+	djnz r1,back36b
+	djnz r0,back37b
+	
+	
+	mov r0,#100
+back39b:
+	mov r1,#100
+back38b:
+	lcall sec19
+	lcall min2
+	lcall hour0
+	djnz r1,back38b
+	djnz r0,back39b
+	
+	
+	mov r0,#100
+back41b:
+	mov r1,#100
+back40b:
+	lcall sec20
+	lcall min2
+	lcall hour0
+	djnz r1,back40b
+	djnz r0,back41b
+	
+	
+		mov r0,#100
+back43b:
+	mov r1,#100
+back42b:
+	lcall sec21
+	lcall min2
+	lcall hour0
+	djnz r1,back42b
+	djnz r0,back43b
+	
+	
+	
+	mov r0,#100
+back45b:
+	mov r1,#100
+back44b:
+	lcall sec22
+	lcall min2
+	lcall hour0
+	djnz r1,back44b
+	djnz r0,back45b
+	
+	
+	
+	mov r0,#100
+back47b:
+	mov r1,#100
+back46b:
+	lcall sec23
+	lcall min2
+	lcall hour0
+	djnz r1,back46b
+	djnz r0,back47b
+	
+	
+	mov r0,#100
+back49b:
+	mov r1,#100
+back48b:
+	lcall sec24
+	lcall min2
+	lcall hour0
+	djnz r1,back48b
+	djnz r0,back49b
+	
+	
+	mov r0,#100
+back51b:
+	mov r1,#100
+back50b:
+	lcall sec25
+	lcall min2
+	lcall hour0
+	djnz r1,back50b
+	djnz r0,back51b
+	
+	
+	mov r0,#100
+back53b:
+	mov r1,#100
+back52b:
+	lcall sec26
+	lcall min2
+	lcall hour0
+	djnz r1,back52b
+	djnz r0,back53b
+	
+	
+	mov r0,#100
+back55b:
+	mov r1,#100
+back54b:
+	lcall sec27
+	lcall min2
+	lcall hour0
+	djnz r1,back54b
+	djnz r0,back55b
+	
+	
+		mov r0,#100
+back57b:
+	mov r1,#100
+back56b:
+	lcall sec28
+	lcall min2
+	lcall hour0
+	djnz r1,back56b
+	djnz r0,back57b
+	
+	
+	
+	mov r0,#100
+back59b:
+	mov r1,#100
+back58b:
+	lcall sec29
+	lcall min2
+	lcall hour0
+	djnz r1,back58b
+	djnz r0,back59b
+	
+	
+	
+	mov r0,#100
+back61b:
+	mov r1,#100
+back60b:
+	lcall sec30
+	lcall min2
+	lcall hour0
+	djnz r1,back60b
+	djnz r0,back61b
+	
+	
+	mov r0,#100
+back63b:
+	mov r1,#100
+back62b:
+	lcall sec31
+	lcall min2
+	lcall hour0
+	djnz r1,back62b
+	djnz r0,back63b
+	
+	
+	mov r0,#100
+back65b:
+	mov r1,#100
+back64b:
+	lcall sec32
+	lcall min2
+	lcall hour0
+	djnz r1,back64b
+	djnz r0,back65b
+	
+	
+	mov r0,#100
+back67b:
+	mov r1,#100
+back66b:
+	lcall sec33
+	lcall min2
+	lcall hour0
+	djnz r1,back66b
+	djnz r0,back67b
+	
+	
+	mov r0,#100
+back69b:
+	mov r1,#100
+back68b:
+	lcall sec34
+	lcall min2
+	lcall hour0
+	djnz r1,back68b
+	djnz r0,back69b
+	
+	
+		mov r0,#100
+back71b:
+	mov r1,#100
+back70b:
+	lcall sec35
+	lcall min2
+	lcall hour0
+	djnz r1,back70b
+	djnz r0,back71b
+	
+	
+	
+	mov r0,#100
+back73b:
+	mov r1,#100
+back72b:
+	lcall sec36
+	lcall min2
+	lcall hour0
+	djnz r1,back72b
+	djnz r0,back73b
+	
+	
+	
+	mov r0,#100
+back75b:
+	mov r1,#100
+back74b:
+	lcall sec37
+	lcall min2
+	lcall hour0
+	djnz r1,back74b
+	djnz r0,back75b
+	
+	
+	mov r0,#100
+back77b:
+	mov r1,#100
+back76b:
+	lcall sec38
+	lcall min2
+	lcall hour0
+	djnz r1,back76b
+	djnz r0,back77b
+	
+	
+	mov r0,#100
+back79b:
+	mov r1,#100
+back78b:
+	lcall sec39
+	lcall min2
+	lcall hour0
+	djnz r1,back78b
+	djnz r0,back79b
+	
+	
+	mov r0,#100
+back81b:
+	mov r1,#100
+back80b:
+	lcall sec40
+	lcall min2
+	lcall hour0
+	djnz r1,back80b
+	djnz r0,back81b
+	
+	
+	mov r0,#100
+back83b:
+	mov r1,#100
+back82b:
+	lcall sec41
+	lcall min2
+	lcall hour0
+	djnz r1,back82b
+	djnz r0,back83b
+	
+	
+		mov r0,#100
+back85b:
+	mov r1,#100
+back84b:
+	lcall sec42
+	lcall min2
+	lcall hour0
+	djnz r1,back84b
+	djnz r0,back85b
+	
+	
+	
+	mov r0,#100
+back87b:
+	mov r1,#100
+back86b:
+	lcall sec43
+	lcall min2
+	lcall hour0
+	djnz r1,back86b
+	djnz r0,back87b
+	
+	
+	
+	mov r0,#100
+back89b:
+	mov r1,#100
+back88b:
+	lcall sec44
+	lcall min2
+	lcall hour0
+	djnz r1,back88b
+	djnz r0,back89b
+	
+	
+	mov r0,#100
+back91b:
+	mov r1,#100
+back90b:
+	lcall sec45
+	lcall min2
+	lcall hour0
+	djnz r1,back90b
+	djnz r0,back91b
+	
+	
+	mov r0,#100
+back93b:
+	mov r1,#100
+back92b:
+	lcall sec46
+	lcall min2
+	lcall hour0
+	djnz r1,back92b
+	djnz r0,back93b
+	
+	
+	mov r0,#100
+back95b:
+	mov r1,#100
+back94b:
+	lcall sec47
+	lcall min2
+	lcall hour0
+	djnz r1,back94b
+	djnz r0,back95b
+	
+	
+	mov r0,#100
+back97b:
+	mov r1,#100
+back96b:
+	lcall sec48
+	lcall min2
+	lcall hour0
+	djnz r1,back96b
+	djnz r0,back97b
+	
+	
+		mov r0,#100
+back99b:
+	mov r1,#100
+back98b:
+	lcall sec49
+	lcall min2
+	lcall hour0
+	djnz r1,back98b
+	djnz r0,back99b
+	
+	
+	
+	mov r0,#100
+back101b:
+	mov r1,#100
+back100b:
+	lcall sec50
+	lcall min2
+	lcall hour0
+	djnz r1,back100b
+	djnz r0,back101b
+	
+	
+	
+	mov r0,#100
+back103b:
+	mov r1,#100
+back102b:
+	lcall sec51
+	lcall min2
+	lcall hour0
+	djnz r1,back102b
+	djnz r0,back103b
+	
+	
+	mov r0,#100
+back105b:
+	mov r1,#100
+back104b:
+	lcall sec52
+	lcall min2
+	lcall hour0
+	djnz r1,back104b
+	djnz r0,back105b
+	
+	
+	mov r0,#100
+back107b:
+	mov r1,#100
+back106b:
+	lcall sec53
+	lcall min2
+	lcall hour0
+	djnz r1,back106b
+	djnz r0,back107b
+	
+	
+	mov r0,#100
+back109b:
+	mov r1,#100
+back108b:
+	lcall sec54
+	lcall min2
+	lcall hour0
+	djnz r1,back108b
+	djnz r0,back109b
+	
+	
+	mov r0,#100
+back111b:
+	mov r1,#100
+back110b:
+	lcall sec55
+	lcall min2
+	lcall hour0
+	djnz r1,back110b
+	djnz r0,back111b
+	
+	
+	mov r0,#100
+back113b:
+	mov r1,#100
+back112b:
+	lcall sec56
+	lcall min2
+	lcall hour0
+	djnz r1,back112b
+    djnz r0,back113b
+	
+	
+	mov r0,#100
+back115b:
+	mov r1,#100
+back114b:
+	lcall sec57
+	lcall min2
+	lcall hour0
+	djnz r1,back114b
+	djnz r0,back115b
+	
+	
+	mov r0,#100
+back117b:
+	mov r1,#100
+back116b:
+	lcall sec58
+	lcall min2
+	lcall hour0
+	djnz r1,back116b
+	djnz r0,back117b
+	
+	
+	mov r0,#100
+back119b:
+	mov r1,#100
+back118b:
+	lcall sec59
+	lcall min2
+	lcall hour0
+	djnz r1,back118b
+	djnz r0,back119b
+	
+	
+	mov r0,#100
+back1c:
+	mov r1,#100
+back0c:
+	lcall sec0
+	lcall min3
+	lcall hour0
+	djnz r1,back0c
+	djnz r0,back1c
+	
+	
+	
+	mov r0,#100
+back3c:
+	mov r1,#100
+back2c:
+	lcall sec1
+	lcall min3
+	lcall hour0
+	djnz r1,back2c
+	djnz r0,back3c
+	
+	
+	
+	mov r0,#100
+back5c:
+	mov r1,#100
+back4c:
+	lcall sec2
+	lcall min3
+	lcall hour0
+	djnz r1,back4c
+	djnz r0,back5c
+	
+	
+	mov r0,#100
+back7c:
+	mov r1,#100
+back6c:
+	lcall sec3
+	lcall min3
+	lcall hour0
+	djnz r1,back6c
+	djnz r0,back7c
+	
+	
+	mov r0,#100
+back9c:
+	mov r1,#100
+back8c:
+	lcall sec4
+	lcall min3
+	lcall hour0
+	djnz r1,back8c
+	djnz r0,back9c
+	
+	
+	mov r0,#100
+back11c:
+	mov r1,#100
+back10c:
+	lcall sec5
+	lcall min3
+	lcall hour0
+	djnz r1,back10c
+	djnz r0,back11c
+	
+	
+	mov r0,#100
+back13c:
+	mov r1,#100
+back12c:
+	lcall sec6
+	lcall min3
+	lcall hour0
+	djnz r1,back12c
+	djnz r0,back13c
+	
+	
+		mov r0,#100
+back15c:
+	mov r1,#100
+back14c:
+	lcall sec7
+	lcall min3
+	lcall hour0
+	djnz r1,back14c
+	djnz r0,back15c
+	
+	
+	
+	mov r0,#100
+back17c:
+	mov r1,#100
+back16c:
+	lcall sec8
+	lcall min3
+	lcall hour0
+	djnz r1,back16c
+	djnz r0,back17c
+	
+	
+	
+	mov r0,#100
+back19c:
+	mov r1,#100
+back18c:
+	lcall sec9
+	lcall min3
+	lcall hour0
+	djnz r1,back18c
+	djnz r0,back19c
+	
+	
+	mov r0,#100
+back21c:
+	mov r1,#100
+back20c:
+	lcall sec10
+	lcall min3
+	lcall hour0
+	djnz r1,back20c
+	djnz r0,back21c
+	
+	
+	mov r0,#100
+back23c:
+	mov r1,#100
+back22c:
+	lcall sec11
+	lcall min3
+	lcall hour0
+	djnz r1,back22c
+	djnz r0,back23c
+	
+	
+	mov r0,#100
+back25c:
+	mov r1,#100
+back24c:
+	lcall sec12
+	lcall min3
+	lcall hour0
+	djnz r1,back24c
+	djnz r0,back25c
+	
+	
+	mov r0,#100
+back27c:
+	mov r1,#100
+back26c:
+	lcall sec13
+	lcall min3
+	lcall hour0
+	djnz r1,back26c
+	djnz r0,back27c
+	
+	
+		mov r0,#100
+back29c:
+	mov r1,#100
+back28c:
+	lcall sec14
+	lcall min3
+	lcall hour0
+	djnz r1,back28c
+	djnz r0,back29c
+	
+	
+	
+	mov r0,#100
+back31c:
+	mov r1,#100
+back30c:
+	lcall sec15
+	lcall min3
+	lcall hour0
+	djnz r1,back30c
+	djnz r0,back31c
+	
+	
+	
+	mov r0,#100
+back33c:
+	mov r1,#100
+back32c:
+	lcall sec16
+	lcall min3
+	lcall hour0
+	djnz r1,back32c
+	djnz r0,back33c
+	
+	
+	mov r0,#100
+back35c:
+	mov r1,#100
+back34c:
+	lcall sec17
+	lcall min3
+	lcall hour0
+	djnz r1,back34c
+	djnz r0,back35c
+	
+	
+	mov r0,#100
+back37c:
+	mov r1,#100
+back36c:
+	lcall sec18
+	lcall min3
+	lcall hour0
+	djnz r1,back36c
+	djnz r0,back37c
+	
+	
+	mov r0,#100
+back39c:
+	mov r1,#100
+back38c:
+	lcall sec19
+	lcall min3
+	lcall hour0
+	djnz r1,back38c
+	djnz r0,back39c
+	
+	
+	mov r0,#100
+back41c:
+	mov r1,#100
+back40c:
+	lcall sec20
+	lcall min3
+	lcall hour0
+	djnz r1,back40c
+	djnz r0,back41c
+	
+	
+		mov r0,#100
+back43c:
+	mov r1,#100
+back42c:
+	lcall sec21
+	lcall min3
+	lcall hour0
+	djnz r1,back42c
+	djnz r0,back43c
+	
+	
+	
+	mov r0,#100
+back45c:
+	mov r1,#100
+back44c:
+	lcall sec22
+	lcall min3
+	lcall hour0
+	djnz r1,back44c
+	djnz r0,back45c
+	
+	
+	
+	mov r0,#100
+back47c:
+	mov r1,#100
+back46c:
+	lcall sec23
+	lcall min3
+	lcall hour0
+	djnz r1,back46c
+	djnz r0,back47c
+	
+	
+	mov r0,#100
+back49c:
+	mov r1,#100
+back48c:
+	lcall sec24
+	lcall min3
+	lcall hour0
+	djnz r1,back48c
+	djnz r0,back49c
+	
+	
+	mov r0,#100
+back51c:
+	mov r1,#100
+back50c:
+	lcall sec25
+	lcall min3
+	lcall hour0
+	djnz r1,back50c
+	djnz r0,back51c
+	
+	
+	mov r0,#100
+back53c:
+	mov r1,#100
+back52c:
+	lcall sec26
+	lcall min3
+	lcall hour0
+	djnz r1,back52c
+	djnz r0,back53c
+	
+	
+	mov r0,#100
+back55c:
+	mov r1,#100
+back54c:
+	lcall sec27
+	lcall min3
+	lcall hour0
+	djnz r1,back54c
+	djnz r0,back55c
+	
+	
+		mov r0,#100
+back57c:
+	mov r1,#100
+back56c:
+	lcall sec28
+	lcall min3
+	lcall hour0
+	djnz r1,back56c
+	djnz r0,back57c
+	
+	
+	
+	mov r0,#100
+back59c:
+	mov r1,#100
+back58c:
+	lcall sec29
+	lcall min3
+	lcall hour0
+	djnz r1,back58c
+	djnz r0,back59c
+	
+	
+	
+	mov r0,#100
+back61c:
+	mov r1,#100
+back60c:
+	lcall sec30
+	lcall min3
+	lcall hour0
+	djnz r1,back60c
+	djnz r0,back61c
+	
+	
+	mov r0,#100
+back63c:
+	mov r1,#100
+back62c:
+	lcall sec31
+	lcall min3
+	lcall hour0
+	djnz r1,back62c
+	djnz r0,back63c
+	
+	
+	mov r0,#100
+back65c:
+	mov r1,#100
+back64c:
+	lcall sec32
+	lcall min3
+	lcall hour0
+	djnz r1,back64c
+	djnz r0,back65c
+	
+	
+	mov r0,#100
+back67c:
+	mov r1,#100
+back66c:
+	lcall sec33
+	lcall min3
+	lcall hour0
+	djnz r1,back66c
+	djnz r0,back67c
+	
+	
+	mov r0,#100
+back69c:
+	mov r1,#100
+back68c:
+	lcall sec34
+	lcall min3
+	lcall hour0
+	djnz r1,back68c
+	djnz r0,back69c
+	
+	
+		mov r0,#100
+back71c:
+	mov r1,#100
+back70c:
+	lcall sec35
+	lcall min3
+	lcall hour0
+	djnz r1,back70c
+	djnz r0,back71c
+	
+	
+	
+	mov r0,#100
+back73c:
+	mov r1,#100
+back72c:
+	lcall sec36
+	lcall min3
+	lcall hour0
+	djnz r1,back72c
+	djnz r0,back73c
+	
+	
+	
+	mov r0,#100
+back75c:
+	mov r1,#100
+back74c:
+	lcall sec37
+	lcall min3
+	lcall hour0
+	djnz r1,back74c
+	djnz r0,back75c
+	
+	
+	mov r0,#100
+back77c:
+	mov r1,#100
+back76c:
+	lcall sec38
+	lcall min3
+	lcall hour0
+	djnz r1,back76c
+	djnz r0,back77c
+	
+	
+	mov r0,#100
+back79c:
+	mov r1,#100
+back78c:
+	lcall sec39
+	lcall min3
+	lcall hour0
+	djnz r1,back78c
+	djnz r0,back79c
+	
+	
+	mov r0,#100
+back81c:
+	mov r1,#100
+back80c:
+	lcall sec40
+	lcall min3
+	lcall hour0
+	djnz r1,back80c
+	djnz r0,back81c
+	
+	
+	mov r0,#100
+back83c:
+	mov r1,#100
+back82c:
+	lcall sec41
+	lcall min3
+	lcall hour0
+	djnz r1,back82c
+	djnz r0,back83c
+	
+	
+		mov r0,#100
+back85c:
+	mov r1,#100
+back84c:
+	lcall sec42
+	lcall min3
+	lcall hour0
+	djnz r1,back84c
+	djnz r0,back85c
+	
+	
+	
+	mov r0,#100
+back87c:
+	mov r1,#100
+back86c:
+	lcall sec43
+	lcall min3
+	lcall hour0
+	djnz r1,back86c
+	djnz r0,back87c
+	
+	
+	
+	mov r0,#100
+back89c:
+	mov r1,#100
+back88c:
+	lcall sec44
+	lcall min3
+	lcall hour0
+	djnz r1,back88c
+	djnz r0,back89c
+	
+	
+	mov r0,#100
+back91c:
+	mov r1,#100
+back90c:
+	lcall sec45
+	lcall min3
+	lcall hour0
+	djnz r1,back90c
+	djnz r0,back91c
+	
+	
+	mov r0,#100
+back93c:
+	mov r1,#100
+back92c:
+	lcall sec46
+	lcall min3
+	lcall hour0
+	djnz r1,back92c
+	djnz r0,back93c
+	
+	
+	mov r0,#100
+back95c:
+	mov r1,#100
+back94c:
+	lcall sec47
+	lcall min3
+	lcall hour0
+	djnz r1,back94c
+	djnz r0,back95c
+	
+	
+	mov r0,#100
+back97c:
+	mov r1,#100
+back96c:
+	lcall sec48
+	lcall min3
+	lcall hour0
+	djnz r1,back96c
+	djnz r0,back97c
+	
+	
+		mov r0,#100
+back99c:
+	mov r1,#100
+back98c:
+	lcall sec49
+	lcall min3
+	lcall hour0
+	djnz r1,back98c
+	djnz r0,back99c
+	
+	
+	
+	mov r0,#100
+back101c:
+	mov r1,#100
+back100c:
+	lcall sec50
+	lcall min3
+	lcall hour0
+	djnz r1,back100c
+	djnz r0,back101c
+	
+	
+	
+	mov r0,#100
+back103c:
+	mov r1,#100
+back102c:
+	lcall sec51
+	lcall min3
+	lcall hour0
+	djnz r1,back102c
+	djnz r0,back103c
+	
+	
+	mov r0,#100
+back105c:
+	mov r1,#100
+back104c:
+	lcall sec52
+	lcall min3
+	lcall hour0
+	djnz r1,back104c
+	djnz r0,back105c
+	
+	
+	mov r0,#100
+back107c:
+	mov r1,#100
+back106c:
+	lcall sec53
+	lcall min3
+	lcall hour0
+	djnz r1,back106c
+	djnz r0,back107c
+	
+	
+	mov r0,#100
+back109c:
+	mov r1,#100
+back108c:
+	lcall sec54
+	lcall min3
+	lcall hour0
+	djnz r1,back108c
+	djnz r0,back109c
+	
+	
+	mov r0,#100
+back111c:
+	mov r1,#100
+back110c:
+	lcall sec55
+	lcall min3
+	lcall hour0
+	djnz r1,back110c
+	djnz r0,back111c
+	
+	
+	mov r0,#100
+back113c:
+	mov r1,#100
+back112c:
+	lcall sec56
+	lcall min3
+	lcall hour0
+	djnz r1,back112c
+	djnz r0,back113c
+	
+	
+	mov r0,#100
+back115c:
+	mov r1,#100
+back114c:
+	lcall sec57
+	lcall min3
+	lcall hour0
+	djnz r1,back114c
+	djnz r0,back115c
+	
+	
+	mov r0,#100
+back117c:
+	mov r1,#100
+back116c:
+	lcall sec58
+	lcall min3
+	lcall hour0
+	djnz r1,back116c
+	djnz r0,back117c
+	
+	
+	mov r0,#100
+back119c:
+	mov r1,#100
+back118c:
+	lcall sec59
+	lcall min3
+	lcall hour0
+	djnz r1,back118c
+	djnz r0,back119c
+	
+	
+	mov r0,#100
+back1d:
+	mov r1,#100
+back0d:
+	lcall sec0
+	lcall min4
+	lcall hour0
+	djnz r1,back0d
+	djnz r0,back1d
+	
+	
+	
+	mov r0,#100
+back3d:
+	mov r1,#100
+back2d:
+	lcall sec1
+	lcall min4
+	lcall hour0
+	djnz r1,back2d
+	djnz r0,back3d
+	
+	
+	
+	mov r0,#100
+back5d:
+	mov r1,#100
+back4d:
+	lcall sec2
+	lcall min4
+	lcall hour0
+	djnz r1,back4d
+	djnz r0,back5d
+	
+	
+	mov r0,#100
+back7d:
+	mov r1,#100
+back6d:
+	lcall sec3
+	lcall min4
+	lcall hour0
+	djnz r1,back6d
+	djnz r0,back7d
+	
+	
+	mov r0,#100
+back9d:
+	mov r1,#100
+back8d:
+	lcall sec4
+	lcall min4
+	lcall hour0
+	djnz r1,back8d
+	djnz r0,back9d
+	
+	
+	mov r0,#100
+back11d:
+	mov r1,#100
+back10d:
+	lcall sec5
+	lcall min4
+	lcall hour0
+	djnz r1,back10d
+	djnz r0,back11d
+	
+	
+	mov r0,#100
+back13d:
+	mov r1,#100
+back12d:
+	lcall sec6
+	lcall min4
+	lcall hour0
+	djnz r1,back12d
+	djnz r0,back13d
+	
+	
+		mov r0,#100
+back15d:
+	mov r1,#100
+back14d:
+	lcall sec7
+	lcall min4
+	lcall hour0
+	djnz r1,back14d
+	djnz r0,back15d
+	
+	
+	
+	mov r0,#100
+back17d:
+	mov r1,#100
+back16d:
+	lcall sec8
+	lcall min4
+	lcall hour0
+	djnz r1,back16d
+	djnz r0,back17d
+	
+	
+	
+	mov r0,#100
+back19d:
+	mov r1,#100
+back18d:
+	lcall sec9
+	lcall min4
+	lcall hour0
+	djnz r1,back18d
+	djnz r0,back19d
+	
+	
+	mov r0,#100
+back21d:
+	mov r1,#100
+back20d:
+	lcall sec10
+	lcall min4
+	lcall hour0
+	djnz r1,back20d
+	djnz r0,back21d
+	
+	
+	mov r0,#100
+back23d:
+	mov r1,#100
+back22d:
+	lcall sec11
+	lcall min4
+	lcall hour0
+	djnz r1,back22d
+	djnz r0,back23d
+	
+	
+	mov r0,#100
+back25d:
+	mov r1,#100
+back24d:
+	lcall sec12
+	lcall min4
+	lcall hour0
+	djnz r1,back24d
+	djnz r0,back25d
+	
+	
+	mov r0,#100
+back27d:
+	mov r1,#100
+back26d:
+	lcall sec13
+	lcall min4
+	lcall hour0
+	djnz r1,back26d
+	djnz r0,back27d
+	
+	
+		mov r0,#100
+back29d:
+	mov r1,#100
+back28d:
+	lcall sec14
+	lcall min4
+	lcall hour0
+	djnz r1,back28d
+	djnz r0,back29d
+	
+	
+	
+	mov r0,#100
+back31d:
+	mov r1,#100
+back30d:
+	lcall sec15
+	lcall min4
+	lcall hour0
+	djnz r1,back30d
+	djnz r0,back31d
+	
+	
+	
+	mov r0,#100
+back33d:
+	mov r1,#100
+back32d:
+	lcall sec16
+	lcall min4
+	lcall hour0
+	djnz r1,back32d
+	djnz r0,back33d
+	
+	
+	mov r0,#100
+back35d:
+	mov r1,#100
+back34d:
+	lcall sec17
+	lcall min4
+	lcall hour0
+	djnz r1,back34d
+	djnz r0,back35d
+	
+	
+	mov r0,#100
+back37d:
+	mov r1,#100
+back36d:
+	lcall sec18
+	lcall min4
+	lcall hour0
+	djnz r1,back36d
+	djnz r0,back37d
+	
+	
+	mov r0,#100
+back39d:
+	mov r1,#100
+back38d:
+	lcall sec19
+	lcall min4
+	lcall hour0
+	djnz r1,back38d
+	djnz r0,back39d
+	
+	
+	mov r0,#100
+back41d:
+	mov r1,#100
+back40d:
+	lcall sec20
+	lcall min4
+	lcall hour0
+	djnz r1,back40d
+	djnz r0,back41d
+	
+	
+		mov r0,#100
+back43d:
+	mov r1,#100
+back42d:
+	lcall sec21
+	lcall min4
+	lcall hour0
+	djnz r1,back42d
+	djnz r0,back43d
+	
+	
+	
+	mov r0,#100
+back45d:
+	mov r1,#100
+back44d:
+	lcall sec22
+	lcall min4
+	lcall hour0
+	djnz r1,back44d
+	djnz r0,back45d
+	
+	
+	
+	mov r0,#100
+back47d:
+	mov r1,#100
+back46d:
+	lcall sec23
+	lcall min4
+	lcall hour0
+	djnz r1,back46d
+	djnz r0,back47d
+	
+	
+	mov r0,#100
+back49d:
+	mov r1,#100
+back48d:
+	lcall sec24
+	lcall min4
+	lcall hour0
+	djnz r1,back48d
+	djnz r0,back49d
+	
+	
+	mov r0,#100
+back51d:
+	mov r1,#100
+back50d:
+	lcall sec25
+	lcall min4
+	lcall hour0
+	djnz r1,back50d
+	djnz r0,back51d
+	
+	
+	mov r0,#100
+back53d:
+	mov r1,#100
+back52d:
+	lcall sec26
+	lcall min4
+	lcall hour0
+	djnz r1,back52d
+	djnz r0,back53d
+	
+	
+	mov r0,#100
+back55d:
+	mov r1,#100
+back54d:
+	lcall sec27
+	lcall min4
+	lcall hour0
+	djnz r1,back54d
+	djnz r0,back55d
+	
+	
+		mov r0,#100
+back57d:
+	mov r1,#100
+back56d:
+	lcall sec28
+	lcall min4
+	lcall hour0
+	djnz r1,back56d
+	djnz r0,back57d
+	
+	
+	
+	mov r0,#100
+back59d:
+	mov r1,#100
+back58d:
+	lcall sec29
+	lcall min4
+	lcall hour0
+	djnz r1,back58d
+	djnz r0,back59d
+	
+	
+	
+	mov r0,#100
+back61d:
+	mov r1,#100
+back60d:
+	lcall sec30
+	lcall min4
+	lcall hour0
+	djnz r1,back60d
+	djnz r0,back61d
+	
+	
+	mov r0,#100
+back63d:
+	mov r1,#100
+back62d:
+	lcall sec31
+	lcall min4
+	lcall hour0
+	djnz r1,back62d
+	djnz r0,back63d
+	
+	
+	mov r0,#100
+back65d:
+	mov r1,#100
+back64d:
+	lcall sec32
+	lcall min4
+	lcall hour0
+	djnz r1,back64d
+	djnz r0,back65d
+	
+	
+	mov r0,#100
+back67d:
+	mov r1,#100
+back66d:
+	lcall sec33
+	lcall min4
+	lcall hour0
+	djnz r1,back66d
+	djnz r0,back67d
+	
+	
+	mov r0,#100
+back69d:
+	mov r1,#100
+back68d:
+	lcall sec34
+	lcall min4
+	lcall hour0
+	djnz r1,back68d
+	djnz r0,back69d
+	
+	
+		mov r0,#100
+back71d:
+	mov r1,#100
+back70d:
+	lcall sec35
+	lcall min4
+	lcall hour0
+	djnz r1,back70d
+	djnz r0,back71d
+	
+	
+	
+	mov r0,#100
+back73d:
+	mov r1,#100
+back72d:
+	lcall sec36
+	lcall min4
+	lcall hour0
+	djnz r1,back72d
+	djnz r0,back73d
+	
+	
+	
+	mov r0,#100
+back75d:
+	mov r1,#100
+back74d:
+	lcall sec37
+	lcall min4
+	lcall hour0
+	djnz r1,back74d
+	djnz r0,back75d
+	
+	
+	mov r0,#100
+back77d:
+	mov r1,#100
+back76d:
+	lcall sec38
+	lcall min4
+	lcall hour0
+	djnz r1,back76d
+	djnz r0,back77d
+	
+	
+	mov r0,#100
+back79d:
+	mov r1,#100
+back78d:
+	lcall sec39
+	lcall min4
+	lcall hour0
+	djnz r1,back78d
+	djnz r0,back79d
+	
+	
+	mov r0,#100
+back81d:
+	mov r1,#100
+back80d:
+	lcall sec40
+	lcall min4
+	lcall hour0
+	djnz r1,back80d
+	djnz r0,back81d
+	
+	
+	mov r0,#100
+back83d:
+	mov r1,#100
+back82d:
+	lcall sec41
+	lcall min4
+	lcall hour0
+	djnz r1,back82d
+	djnz r0,back83d
+	
+	
+		mov r0,#100
+back85d:
+	mov r1,#100
+back84d:
+	lcall sec42
+	lcall min4
+	lcall hour0
+	djnz r1,back84d
+	djnz r0,back85d
+	
+	
+	
+	mov r0,#100
+back87d:
+	mov r1,#100
+back86d:
+	lcall sec43
+	lcall min4
+	lcall hour0
+	djnz r1,back86d
+	djnz r0,back87d
+	
+	
+	
+	mov r0,#100
+back89d:
+	mov r1,#100
+back88d:
+	lcall sec44
+	lcall min4
+	lcall hour0
+	djnz r1,back88d
+	djnz r0,back89d
+	
+	
+	mov r0,#100
+back91d:
+	mov r1,#100
+back90d:
+	lcall sec45
+	lcall min4
+	lcall hour0
+	djnz r1,back90d
+	djnz r0,back91d
+	
+	
+	mov r0,#100
+back93d:
+	mov r1,#100
+back92d:
+	lcall sec46
+	lcall min4
+	lcall hour0
+	djnz r1,back92d
+	djnz r0,back93d
+	
+	
+	mov r0,#100
+back95d:
+	mov r1,#100
+back94d:
+	lcall sec47
+	lcall min4
+	lcall hour0
+	djnz r1,back94d
+	djnz r0,back95d
+	
+	
+	mov r0,#100
+back97d:
+	mov r1,#100
+back96d:
+	lcall sec48
+	lcall min4
+	lcall hour0
+	djnz r1,back96d
+	djnz r0,back97d
+	
+	
+		mov r0,#100
+back99d:
+	mov r1,#100
+back98d:
+	lcall sec49
+	lcall min4
+	lcall hour0
+	djnz r1,back98d
+	djnz r0,back99d
+	
+	
+	
+	mov r0,#100
+back101d:
+	mov r1,#100
+back100d:
+	lcall sec50
+	lcall min4
+	lcall hour0
+	djnz r1,back100d
+	djnz r0,back101d
+	
+	
+	
+	mov r0,#100
+back103d:
+	mov r1,#100
+back102d:
+	lcall sec51
+	lcall min4
+	lcall hour0
+	djnz r1,back102d
+	djnz r0,back103d
+	
+	
+	mov r0,#100
+back105d:
+	mov r1,#100
+back104d:
+	lcall sec52
+	lcall min4
+	lcall hour0
+	djnz r1,back104d
+	djnz r0,back105d
+	
+	
+	mov r0,#100
+back107d:
+	mov r1,#100
+back106d:
+	lcall sec53
+	lcall min4
+	lcall hour0
+	djnz r1,back106d
+	djnz r0,back107d
+	
+	
+	mov r0,#100
+back109d:
+	mov r1,#100
+back108d:
+	lcall sec54
+	lcall min4
+	lcall hour0
+	djnz r1,back108d
+	djnz r0,back109d
+	
+	
+	mov r0,#100
+back111d:
+	mov r1,#100
+back110d:
+	lcall sec55
+	lcall min4
+	lcall hour0
+	djnz r1,back110d
+	djnz r0,back111d
+	
+	
+	mov r0,#100
+back113d:
+	mov r1,#100
+back112d:
+	lcall sec56
+	lcall min4
+	lcall hour0
+	djnz r1,back112d
+	djnz r0,back113d
+	
+	
+	mov r0,#100
+back115d:
+	mov r1,#100
+back114d:
+	lcall sec57
+	lcall min4
+	lcall hour0
+	djnz r1,back114d
+	djnz r0,back115d
+	
+	
+	mov r0,#100
+back117d:
+	mov r1,#100
+	back116d:
+	lcall sec58
+	lcall min4
+	lcall hour0
+	djnz r1,back116d
+	djnz r0,back117d
+	
+	
+	mov r0,#100
+back119d:
+	mov r1,#100
+back118d:
+	lcall sec59
+	lcall min4
+	lcall hour0
+	djnz r1,back118d
+	djnz r0,back119d
+	
+	
+	mov r0,#100
+back1e:
+	mov r1,#100
+back0e:
+	lcall sec0
+	lcall min5
+	lcall hour0
+	djnz r1,back0e
+	djnz r0,back1e
+	
+	
+	
+	mov r0,#100
+back3e:
+	mov r1,#100
+back2e:
+	lcall sec1
+	lcall min5
+	lcall hour0
+	djnz r1,back2e
+	djnz r0,back3e
+	
+	
+	
+	mov r0,#100
+back5e:
+	mov r1,#100
+back4e:
+	lcall sec2
+	lcall min5
+	lcall hour0
+	djnz r1,back4e
+	djnz r0,back5e
+	
+	
+	mov r0,#100
+back7e:
+	mov r1,#100
+back6e:
+	lcall sec3
+	lcall min5
+	lcall hour0
+	djnz r1,back6e
+	djnz r0,back7e
+	
+	
+	mov r0,#100
+back9e:
+	mov r1,#100
+back8e:
+	lcall sec4
+	lcall min5
+	lcall hour0
+	djnz r1,back8e
+	djnz r0,back9e
+	
+	
+	mov r0,#100
+back11e:
+	mov r1,#100
+back10e:
+	lcall sec5
+	lcall min5
+	lcall hour0
+	djnz r1,back10e
+	djnz r0,back11e
+	
+	
+	mov r0,#100
+back13e:
+	mov r1,#100
+back12e:
+	lcall sec6
+	lcall min5
+	lcall hour0
+	djnz r1,back12e
+	djnz r0,back13e
+	
+	
+		mov r0,#100
+back15e:
+	mov r1,#100
+back14e:
+	lcall sec7
+	lcall min5
+	lcall hour0
+	djnz r1,back14e
+	djnz r0,back15e
+	
+	
+	
+	mov r0,#100
+back17e:
+	mov r1,#100
+back16e:
+	lcall sec8
+	lcall min5
+	lcall hour0
+	djnz r1,back16e
+	djnz r0,back17e
+	
+	
+	
+	mov r0,#100
+back19e:
+	mov r1,#100
+back18e:
+	lcall sec9
+	lcall min5
+	lcall hour0
+	djnz r1,back18e
+	djnz r0,back19e
+	
+	
+	mov r0,#100
+back21e:
+	mov r1,#100
+back20e:
+	lcall sec10
+	lcall min5
+	lcall hour0
+	djnz r1,back20e
+	djnz r0,back21e
+	
+	
+	mov r0,#100
+back23e:
+	mov r1,#100
+back22e:
+	lcall sec11
+	lcall min5
+	lcall hour0
+	djnz r1,back22e
+	djnz r0,back23e
+	
+	
+	mov r0,#100
+back25e:
+	mov r1,#100
+back24e:
+	lcall sec12
+	lcall min5
+	lcall hour0
+	djnz r1,back24e
+	djnz r0,back25e
+	
+	
+	mov r0,#100
+back27e:
+	mov r1,#100
+back26e:
+	lcall sec13
+	lcall min5
+	lcall hour0
+	djnz r1,back26e
+	djnz r0,back27e
+	
+	
+		mov r0,#100
+back29e:
+	mov r1,#100
+back28e:
+	lcall sec14
+	lcall min5
+	lcall hour0
+	djnz r1,back28e
+	djnz r0,back29e
+	
+	
+	
+	mov r0,#100
+back31e:
+	mov r1,#100
+back30e:
+	lcall sec15
+	lcall min5
+	lcall hour0
+	djnz r1,back30e
+	djnz r0,back31e
+	
+	
+	
+	mov r0,#100
+back33e:
+	mov r1,#100
+back32e:
+	lcall sec16
+	lcall min5
+	lcall hour0
+	djnz r1,back32e
+	djnz r0,back33e
+	
+	
+	mov r0,#100
+back35e:
+	mov r1,#100
+back34e:
+	lcall sec17
+	lcall min5
+	lcall hour0
+	djnz r1,back34e
+	djnz r0,back35e
+	
+	
+	mov r0,#100
+back37e:
+	mov r1,#100
+back36e:
+	lcall sec18
+	lcall min5
+	lcall hour0
+	djnz r1,back36e
+	djnz r0,back37e
+	
+	
+	mov r0,#100
+back39e:
+	mov r1,#100
+back38e:
+	lcall sec19
+	lcall min5
+	lcall hour0
+	djnz r1,back38e
+	djnz r0,back39e
+	
+	
+	mov r0,#100
+back41e:
+	mov r1,#100
+back40e:
+	lcall sec20
+	lcall min5
+	lcall hour0
+	djnz r1,back40e
+	djnz r0,back41e
+	
+	
+		mov r0,#100
+back43e:
+	mov r1,#100
+back42e:
+	lcall sec21
+	lcall min5
+	lcall hour0
+	djnz r1,back42e
+	djnz r0,back43e
+	
+	
+	
+	mov r0,#100
+back45e:
+	mov r1,#100
+back44e:
+	lcall sec22
+	lcall min5
+	lcall hour0
+	djnz r1,back44e
+	djnz r0,back45e
+	
+	
+	
+	mov r0,#100
+back47e:
+	mov r1,#100
+back46e:
+	lcall sec23
+	lcall min5
+	lcall hour0
+	djnz r1,back46e
+	djnz r0,back47e
+	
+	
+	mov r0,#100
+back49e:
+	mov r1,#100
+back48e:
+	lcall sec24
+	lcall min5
+	lcall hour0
+	djnz r1,back48e
+	djnz r0,back49e
+	
+	
+	mov r0,#100
+back51e:
+	mov r1,#100
+back50e:
+	lcall sec25
+	lcall min5
+	lcall hour0
+	djnz r1,back50e
+	djnz r0,back51e
+	
+	
+	mov r0,#100
+back53e:
+	mov r1,#100
+back52e:
+	lcall sec26
+	lcall min5
+	lcall hour0
+	djnz r1,back52e
+	djnz r0,back53e
+	
+	
+	mov r0,#100
+back55e:
+	mov r1,#100
+back54e:
+	lcall sec27
+	lcall min5
+	lcall hour0
+	djnz r1,back54e
+	djnz r0,back55e
+	
+	
+		mov r0,#100
+back57e:
+	mov r1,#100
+back56e:
+	lcall sec28
+	lcall min5
+	lcall hour0
+	djnz r1,back56e
+	djnz r0,back57e
+	
+	
+	
+	mov r0,#100
+back59e:
+	mov r1,#100
+back58e:
+	lcall sec29
+	lcall min5
+	lcall hour0
+	djnz r1,back58e
+	djnz r0,back59e
+	
+	
+	
+	mov r0,#100
+back61e:
+	mov r1,#100
+back60e:
+	lcall sec30
+	lcall min5
+	lcall hour0
+	djnz r1,back60e
+	djnz r0,back61e
+	
+	
+	mov r0,#100
+back63e:
+	mov r1,#100
+back62e:
+	lcall sec31
+	lcall min5
+	lcall hour0
+	djnz r1,back62e
+	djnz r0,back63e
+	
+	
+	mov r0,#100
+back65e:
+	mov r1,#100
+back64e:
+	lcall sec32
+	lcall min5
+	lcall hour0
+	djnz r1,back64e
+	djnz r0,back65e
+	
+	
+	mov r0,#100
+back67e:
+	mov r1,#100
+back66e:
+	lcall sec33
+	lcall min5
+	lcall hour0
+	djnz r1,back66e
+	djnz r0,back67e
+	
+	
+	mov r0,#100
+back69e:
+	mov r1,#100
+back68e:
+	lcall sec34
+	lcall min5
+	lcall hour0
+	djnz r1,back68e
+	djnz r0,back69e
+	
+	
+		mov r0,#100
+back71e:
+	mov r1,#100
+back70e:
+	lcall sec35
+	lcall min5
+	lcall hour0
+	djnz r1,back70e
+	djnz r0,back71e
+	
+	
+	
+	mov r0,#100
+back73e:
+	mov r1,#100
+back72e:
+	lcall sec36
+	lcall min5
+	lcall hour0
+	djnz r1,back72e
+	djnz r0,back73e
+	
+	
+	
+	mov r0,#100
+back75e:
+	mov r1,#100
+back74e:
+	lcall sec37
+	lcall min5
+	lcall hour0
+	djnz r1,back74e
+	djnz r0,back75e
+	
+	
+	mov r0,#100
+back77e:
+	mov r1,#100
+back76e:
+	lcall sec38
+	lcall min5
+	lcall hour0
+	djnz r1,back76e
+	djnz r0,back77e
+	
+	
+	mov r0,#100
+back79e:
+	mov r1,#100
+back78e:
+	lcall sec39
+	lcall min5
+	lcall hour0
+	djnz r1,back78e
+	djnz r0,back79e
+	
+	
+	mov r0,#100
+back81e:
+	mov r1,#100
+back80e:
+	lcall sec40
+	lcall min5
+	lcall hour0
+	djnz r1,back80e
+	djnz r0,back81e
+	
+	
+	mov r0,#100
+back83e:
+	mov r1,#100
+back82e:
+	lcall sec41
+	lcall min5
+	lcall hour0
+	djnz r1,back82e
+	djnz r0,back83e
+	
+	
+		mov r0,#100
+back85e:
+	mov r1,#100
+back84e:
+	lcall sec42
+	lcall min5
+	lcall hour0
+	djnz r1,back84e
+	djnz r0,back85e
+	
+	
+	
+	mov r0,#100
+back87e:
+	mov r1,#100
+back86e:
+	lcall sec43
+	lcall min5
+	lcall hour0
+	djnz r1,back86e
+	djnz r0,back87e
+	
+	
+	
+	mov r0,#100
+back89e:
+	mov r1,#100
+back88e:
+	lcall sec44
+	lcall min5
+	lcall hour0
+	djnz r1,back88e
+	djnz r0,back89e
+	
+	
+	mov r0,#100
+back91e:
+	mov r1,#100
+back90e:
+	lcall sec45
+	lcall min5
+	lcall hour0
+	djnz r1,back90e
+	djnz r0,back91e
+	
+	
+	mov r0,#100
+back93e:
+	mov r1,#100
+back92e:
+	lcall sec46
+	lcall min5
+	lcall hour0
+	djnz r1,back92e
+	djnz r0,back93e
+	
+	
+	mov r0,#100
+back95e:
+	mov r1,#100
+back94e:
+	lcall sec47
+	lcall min5
+	lcall hour0
+	djnz r1,back94e
+	djnz r0,back95e
+	
+	
+	mov r0,#100
+back97e:
+	mov r1,#100
+back96e:
+	lcall sec48
+	lcall min5
+	lcall hour0
+	djnz r1,back96e
+	djnz r0,back97e
+	
+	
+		mov r0,#100
+back99e:
+	mov r1,#100
+back98e:
+	lcall sec49
+	lcall min5
+	lcall hour0
+	djnz r1,back98e
+	djnz r0,back99e
+	
+	
+	
+	mov r0,#100
+back101e:
+	mov r1,#100
+back100e:
+	lcall sec50
+	lcall min5
+	lcall hour0
+	djnz r1,back100e
+	djnz r0,back101e
+	
+	
+	
+	mov r0,#100
+back103e:
+	mov r1,#100
+back102e:
+	lcall sec51
+	lcall min5
+	lcall hour0
+	djnz r1,back102e
+	djnz r0,back103e
+	
+	
+	mov r0,#100
+back105e:
+	mov r1,#100
+back104e:
+	lcall sec52
+	lcall min5
+	lcall hour0
+	djnz r1,back104e
+	djnz r0,back105e
+	
+	
+	mov r0,#100
+back107e:
+	mov r1,#100
+back106e:
+	lcall sec53
+	lcall min5
+	lcall hour0
+	djnz r1,back106e
+	djnz r0,back107e
+	
+	
+	mov r0,#100
+back109e:
+	mov r1,#100
+back108e:
+	lcall sec54
+	lcall min5
+	lcall hour0
+	djnz r1,back108e
+	djnz r0,back109e
+	
+	
+	mov r0,#100
+back111e:
+	mov r1,#100
+back110e:
+	lcall sec55
+	lcall min5
+	lcall hour0
+	djnz r1,back110e
+	djnz r0,back111e
+	
+	
+	mov r0,#100
+back113e:
+	mov r1,#100
+back112e:
+	lcall sec56
+	lcall min5
+	lcall hour0
+	djnz r1,back112e
+	djnz r0,back113e
+	
+	
+	mov r0,#100
+back115e:
+	mov r1,#100
+back114e:
+	lcall sec57
+	lcall min5
+	lcall hour0
+	djnz r1,back114e
+	djnz r0,back115e
+	
+	
+	mov r0,#100
+back117e:
+	mov r1,#100
+back116e:
+	lcall sec58
+	lcall min5
+	lcall hour0
+	djnz r1,back116e
+	djnz r0,back117e
+	
+	
+	mov r0,#100
+back119e:
+	mov r1,#100
+back118e:
+	lcall sec59
+	lcall min5
+	lcall hour0
+	djnz r1,back118e
+	djnz r0,back119e
+	
+	
+	mov r0,#100
+back1f:
+	mov r1,#100
+back0f:
+	lcall sec0
+	lcall min6
+	lcall hour0
+	djnz r1,back0f
+	djnz r0,back1f
+	
+	
+	
+	mov r0,#100
+back3f:
+	mov r1,#100
+back2f:
+	lcall sec1
+	lcall min6
+	lcall hour0
+	djnz r1,back2f
+	djnz r0,back3f
+	
+	
+	
+	mov r0,#100
+back5f:
+	mov r1,#100
+back4f:
+	lcall sec2
+	lcall min6
+	lcall hour0
+	djnz r1,back4f
+	djnz r0,back5f
+	
+	
+	mov r0,#100
+back7f:
+	mov r1,#100
+back6f:
+	lcall sec3
+	lcall min6
+	lcall hour0
+	djnz r1,back6f
+	djnz r0,back7f
+	
+	
+	mov r0,#100
+back9f:
+	mov r1,#100
+back8f:
+	lcall sec4
+	lcall min6
+	lcall hour0
+	djnz r1,back8f
+	djnz r0,back9f
+	
+	
+	mov r0,#100
+back11f:
+	mov r1,#100
+back10f:
+	lcall sec5
+	lcall min6
+	lcall hour0
+	djnz r1,back10f
+	djnz r0,back11f
+	
+	
+	mov r0,#100
+back13f:
+	mov r1,#100
+back12f:
+	lcall sec6
+	lcall min6
+	lcall hour0
+	djnz r1,back12f
+	djnz r0,back13f
+	
+	
+		mov r0,#100
+back15f:
+	mov r1,#100
+back14f:
+	lcall sec7
+	lcall min6
+	lcall hour0
+	djnz r1,back14f
+	djnz r0,back15f
+	
+	
+	
+	mov r0,#100
+back17f:
+	mov r1,#100
+back16f:
+	lcall sec8
+	lcall min6
+	lcall hour0
+	djnz r1,back16f
+	djnz r0,back17f
+	
+	
+	
+	mov r0,#100
+back19f:
+	mov r1,#100
+back18f:
+	lcall sec9
+	lcall min6
+	lcall hour0
+	djnz r1,back18f
+	djnz r0,back19f
+	
+	
+	mov r0,#100
+back21f:
+	mov r1,#100
+back20f:
+	lcall sec10
+	lcall min6
+	lcall hour0
+	djnz r1,back20f
+	djnz r0,back21f
+	
+	
+	mov r0,#100
+back23f:
+	mov r1,#100
+back22f:
+	lcall sec11
+	lcall min6
+	lcall hour0
+	djnz r1,back22f
+	djnz r0,back23f
+	
+	
+	mov r0,#100
+back25f:
+	mov r1,#100
+back24f:
+	lcall sec12
+	lcall min6
+	lcall hour0
+	djnz r1,back24f
+	djnz r0,back25f
+	
+	
+	mov r0,#100
+back27f:
+	mov r1,#100
+back26f:
+	lcall sec13
+	lcall min6
+	lcall hour0
+	djnz r1,back26f
+	djnz r0,back27f
+	
+	
+		mov r0,#100
+back29f:
+	mov r1,#100
+back28f:
+	lcall sec14
+	lcall min6
+	lcall hour0
+	djnz r1,back28f
+	djnz r0,back29f
+	
+	
+	
+	mov r0,#100
+back31f:
+	mov r1,#100
+back30f:
+	lcall sec15
+	lcall min6
+	lcall hour0
+	djnz r1,back30f
+	djnz r0,back31f
+	
+	
+	
+	mov r0,#100
+back33f:
+	mov r1,#100
+back32f:
+	lcall sec16
+	lcall min6
+	lcall hour0
+	djnz r1,back32f
+	djnz r0,back33f
+	
+	
+	mov r0,#100
+back35f:
+	mov r1,#100
+back34f:
+	lcall sec17
+	lcall min6
+	lcall hour0
+	djnz r1,back34f
+	djnz r0,back35f
+	
+	
+	mov r0,#100
+back37f:
+	mov r1,#100
+back36f:
+	lcall sec18
+	lcall min6
+	lcall hour0
+	djnz r1,back36f
+	djnz r0,back37f
+	
+	
+	mov r0,#100
+back39f:
+	mov r1,#100
+back38f:
+	lcall sec19
+	lcall min6
+	lcall hour0
+	djnz r1,back38f
+	djnz r0,back39f
+	
+	
+	mov r0,#100
+back41f:
+	mov r1,#100
+back40f:
+	lcall sec20
+	lcall min6
+	lcall hour0
+	djnz r1,back40f
+	djnz r0,back41f
+	
+	
+		mov r0,#100
+back43f:
+	mov r1,#100
+back42f:
+	lcall sec21
+	lcall min6
+	lcall hour0
+	djnz r1,back42f
+	djnz r0,back43f
+	
+	
+	
+	mov r0,#100
+back45f:
+	mov r1,#100
+back44f:
+	lcall sec22
+	lcall min6
+	lcall hour0
+	djnz r1,back44f
+	djnz r0,back45f
+	
+	
+	
+	mov r0,#100
+back47f:
+	mov r1,#100
+back46f:
+	lcall sec23
+	lcall min6
+	lcall hour0
+	djnz r1,back46f
+	djnz r0,back47f
+	
+	
+	mov r0,#100
+back49f:
+	mov r1,#100
+back48f:
+	lcall sec24
+	lcall min6
+	lcall hour0
+	djnz r1,back48f
+	djnz r0,back49f
+	
+	
+	mov r0,#100
+back51f:
+	mov r1,#100
+back50f:
+	lcall sec25
+	lcall min6
+	lcall hour0
+	djnz r1,back50f
+	djnz r0,back51f
+	
+	
+	mov r0,#100
+back53f:
+	mov r1,#100
+back52f:
+	lcall sec26
+	lcall min6
+	lcall hour0
+	djnz r1,back52f
+	djnz r0,back53f
+	
+	
+	mov r0,#100
+back55f:
+	mov r1,#100
+back54f:
+	lcall sec27
+	lcall min6
+	lcall hour0
+	djnz r1,back54f
+	djnz r0,back55f
+	
+	
+		mov r0,#100
+back57f:
+	mov r1,#100
+back56f:
+	lcall sec28
+	lcall min6
+	lcall hour0
+	djnz r1,back56f
+	djnz r0,back57f
+	
+	
+	
+	mov r0,#100
+back59f:
+	mov r1,#100
+back58f:
+	lcall sec29
+	lcall min6
+	lcall hour0
+	djnz r1,back58f
+	djnz r0,back59f
+	
+	
+	
+	mov r0,#100
+back61f:
+	mov r1,#100
+back60f:
+	lcall sec30
+	lcall min6
+	lcall hour0
+	djnz r1,back60f
+	djnz r0,back61f
+	
+	
+	mov r0,#100
+back63f:
+	mov r1,#100
+back62f:
+	lcall sec31
+	lcall min6
+	lcall hour0
+	djnz r1,back62f
+	djnz r0,back63f
+	
+	
+	mov r0,#100
+back65f:
+	mov r1,#100
+back64f:
+	lcall sec32
+	lcall min6
+	lcall hour0
+	djnz r1,back64f
+	djnz r0,back65f
+	
+	
+	mov r0,#100
+back67f:
+	mov r1,#100
+back66f:
+	lcall sec33
+	lcall min6
+	lcall hour0
+	djnz r1,back66f
+	djnz r0,back67f
+	
+	
+	mov r0,#100
+back69f:
+	mov r1,#100
+back68f:
+	lcall sec34
+	lcall min6
+	lcall hour0
+	djnz r1,back68f
+	djnz r0,back69f
+	
+	
+		mov r0,#100
+back71f:
+	mov r1,#100
+back70f:
+	lcall sec35
+	lcall min6
+	lcall hour0
+	djnz r1,back70f
+	djnz r0,back71f
+	
+	
+	
+	mov r0,#100
+back73f:
+	mov r1,#100
+back72f:
+	lcall sec36
+	lcall min6
+	lcall hour0
+	djnz r1,back72f
+	djnz r0,back73f
+	
+	
+	
+	mov r0,#100
+back75f:
+	mov r1,#100
+back74f:
+	lcall sec37
+	lcall min6
+	lcall hour0
+	djnz r1,back74f
+	djnz r0,back75f
+	
+	
+	mov r0,#100
+back77f:
+	mov r1,#100
+back76f:
+	lcall sec38
+	lcall min6
+	lcall hour0
+	djnz r1,back76f
+	djnz r0,back77f
+	
+	
+	mov r0,#100
+back79f:
+	mov r1,#100
+back78f:
+	lcall sec39
+	lcall min6
+	lcall hour0
+	djnz r1,back78f
+	djnz r0,back79f
+	
+	
+	mov r0,#100
+back81f:
+	mov r1,#100
+back80f:
+	lcall sec40
+	lcall min6
+	lcall hour0
+	djnz r1,back80f
+	djnz r0,back81f
+	
+	
+	mov r0,#100
+back83f:
+	mov r1,#100
+back82f:
+	lcall sec41
+	lcall min6
+	lcall hour0
+	djnz r1,back82f
+	djnz r0,back83f
+	
+	
+		mov r0,#100
+back85f:
+	mov r1,#100
+back84f:
+	lcall sec42
+	lcall min6
+	lcall hour0
+	djnz r1,back84f
+	djnz r0,back85f
+	
+	
+	
+	mov r0,#100
+back87f:
+	mov r1,#100
+back86f:
+	lcall sec43
+	lcall min6
+	lcall hour0
+	djnz r1,back86f
+	djnz r0,back87f
+	
+	
+	
+	mov r0,#100
+back89f:
+	mov r1,#100
+back88f:
+	lcall sec44
+	lcall min6
+	lcall hour0
+	djnz r1,back88f
+	djnz r0,back89f
+	
+	
+	mov r0,#100
+back91f:
+	mov r1,#100
+back90f:
+	lcall sec45
+	lcall min6
+	lcall hour0
+	djnz r1,back90f
+	djnz r0,back91f
+	
+	
+	mov r0,#100
+back93f:
+	mov r1,#100
+back92f:
+	lcall sec46
+	lcall min6
+	lcall hour0
+	djnz r1,back92f
+	djnz r0,back93f
+	
+	
+	mov r0,#100
+back95f:
+	mov r1,#100
+back94f:
+	lcall sec47
+	lcall min6
+	lcall hour0
+	djnz r1,back94f
+	djnz r0,back95f
+	
+	
+	mov r0,#100
+back97f:
+	mov r1,#100
+back96f:
+	lcall sec48
+	lcall min6
+	lcall hour0
+	djnz r1,back96f
+	djnz r0,back97f
+	
+	
+		mov r0,#100
+back99f:
+	mov r1,#100
+back98f:
+	lcall sec49
+	lcall min6
+	lcall hour0
+	djnz r1,back98f
+	djnz r0,back99f
+	
+	
+	
+	mov r0,#100
+back101f:
+	mov r1,#100
+back100f:
+	lcall sec50
+	lcall min6
+	lcall hour0
+	djnz r1,back100f
+	djnz r0,back101f
+	
+	
+	
+	mov r0,#100
+back103f:
+	mov r1,#100
+back102f:
+	lcall sec51
+	lcall min6
+	lcall hour0
+	djnz r1,back102f
+	djnz r0,back103f
+	
+	
+	mov r0,#100
+back105f:
+	mov r1,#100
+back104f:
+	lcall sec52
+	lcall min6
+	lcall hour0
+	djnz r1,back104f
+	djnz r0,back105f
+	
+	
+	mov r0,#100
+back107f:
+	mov r1,#100
+back106f:
+	lcall sec53
+	lcall min6
+	lcall hour0
+	djnz r1,back106f
+	djnz r0,back107f
+	
+	
+	mov r0,#100
+back109f:
+	mov r1,#100
+back108f:
+	lcall sec54
+	lcall min6
+	lcall hour0
+	djnz r1,back108f
+	djnz r0,back109f
+	
+	
+	mov r0,#100
+back111f:
+	mov r1,#100
+back110f:
+	lcall sec55
+	lcall min6
+	lcall hour0
+	djnz r1,back110f
+	djnz r0,back111f
+	
+	
+	mov r0,#100
+back113f:
+	mov r1,#100
+back112f:
+	lcall sec56
+	lcall min6
+	lcall hour0
+	djnz r1,back112f
+	djnz r0,back113f
+	
+	
+	mov r0,#100
+back115f:
+	mov r1,#100
+back114f:
+	lcall sec57
+	lcall min6
+	lcall hour0
+	djnz r1,back114f
+	djnz r0,back115f
+	
+	
+	mov r0,#100
+back117f:
+	mov r1,#100
+back116f:
+	lcall sec58
+	lcall min6
+	lcall hour0
+	djnz r1,back116f
+	djnz r0,back117f
+	
+	
+	mov r0,#100
+back119f:
+	mov r1,#100
+back118f:
+	lcall sec59
+	lcall min6
+	lcall hour0
+	djnz r1,back118f
+	djnz r0,back119f
+	
+	
+	
+	mov r0,#100
+back1g:
+	mov r1,#100
+back0g:
+	lcall sec0
+	lcall min7
+	lcall hour0
+	djnz r1,back0g
+	djnz r0,back1g
+	
+	
+	
+	mov r0,#100
+back3g:
+	mov r1,#100
+back2g:
+	lcall sec1
+	lcall min7
+	lcall hour0
+	djnz r1,back2g
+	djnz r0,back3g
+	
+	
+	
+	mov r0,#100
+back5g:
+	mov r1,#100
+back4g:
+	lcall sec2
+	lcall min7
+	lcall hour0
+	djnz r1,back4g
+	djnz r0,back5g
+	
+	
+	mov r0,#100
+back7g:
+	mov r1,#100
+back6g:
+	lcall sec3
+	lcall min7
+	lcall hour0
+	djnz r1,back6g
+	djnz r0,back7g
+	
+	
+	mov r0,#100
+back9g:
+	mov r1,#100
+back8g:
+	lcall sec4
+	lcall min7
+	lcall hour0
+	djnz r1,back8g
+	djnz r0,back9g
+	
+	
+	mov r0,#100
+back11g:
+	mov r1,#100
+back10g:
+	lcall sec5
+	lcall min7
+	lcall hour0
+	djnz r1,back10g
+	djnz r0,back11g
+	
+	
+	mov r0,#100
+back13g:
+	mov r1,#100
+back12g:
+	lcall sec6
+	lcall min7
+	lcall hour0
+	djnz r1,back12g
+	djnz r0,back13g
+	
+	
+		mov r0,#100
+back15g:
+	mov r1,#100
+back14g:
+	lcall sec7
+	lcall min7
+	lcall hour0
+	djnz r1,back14g
+	djnz r0,back15g
+	
+	
+	
+	mov r0,#100
+back17g:
+	mov r1,#100
+back16g:
+	lcall sec8
+	lcall min7
+	lcall hour0
+	djnz r1,back16g
+	djnz r0,back17g
+	
+	
+	
+	mov r0,#100
+back19g:
+	mov r1,#100
+back18g:
+	lcall sec9
+	lcall min7
+	lcall hour0
+	djnz r1,back18g
+	djnz r0,back19g
+	
+	
+	mov r0,#100
+back21g:
+	mov r1,#100
+back20g:
+	lcall sec10
+	lcall min7
+	lcall hour0
+	djnz r1,back20g
+	djnz r0,back21g
+	
+	
+	mov r0,#100
+back23g:
+	mov r1,#100
+back22g:
+	lcall sec11
+	lcall min7
+	lcall hour0
+	djnz r1,back22g
+	djnz r0,back23g
+	
+	
+	mov r0,#100
+back25g:
+	mov r1,#100
+back24g:
+	lcall sec12
+	lcall min7
+	lcall hour0
+	djnz r1,back24g
+	djnz r0,back25g
+	
+	
+	mov r0,#100
+back27g:
+	mov r1,#100
+back26g:
+	lcall sec13
+	lcall min7
+	lcall hour0
+	djnz r1,back26g
+	djnz r0,back27g
+	
+	
+		mov r0,#100
+back29g:
+	mov r1,#100
+back28g:
+	lcall sec14
+	lcall min7
+	lcall hour0
+	djnz r1,back28g
+	djnz r0,back29g
+	
+	
+	
+	mov r0,#100
+back31g:
+	mov r1,#100
+back30g:
+	lcall sec15
+	lcall min7
+	lcall hour0
+	djnz r1,back30g
+	djnz r0,back31g
+	
+	
+	
+	mov r0,#100
+back33g:
+	mov r1,#100
+back32g:
+	lcall sec16
+	lcall min7
+	lcall hour0
+	djnz r1,back32g
+	djnz r0,back33g
+	
+	
+	mov r0,#100
+back35g:
+	mov r1,#100
+back34g:
+	lcall sec17
+	lcall min7
+	lcall hour0
+	djnz r1,back34g
+	djnz r0,back35g
+	
+	
+	mov r0,#100
+back37g:
+	mov r1,#100
+back36g:
+	lcall sec18
+	lcall min7
+	lcall hour0
+	djnz r1,back36g
+	djnz r0,back37g
+	
+	
+	mov r0,#100
+back39g:
+	mov r1,#100
+back38g:
+	lcall sec19
+	lcall min7
+	lcall hour0
+	djnz r1,back38g
+	djnz r0,back39g
+	
+	
+	mov r0,#100
+back41g:
+	mov r1,#100
+back40g:
+	lcall sec20
+	lcall min7
+	lcall hour0
+	djnz r1,back40g
+	djnz r0,back41g
+	
+	
+		mov r0,#100
+back43g:
+	mov r1,#100
+back42g:
+	lcall sec21
+	lcall min7
+	lcall hour0
+	djnz r1,back42g
+	djnz r0,back43g
+	
+	
+	
+	mov r0,#100
+back45g:
+	mov r1,#100
+back44g:
+	lcall sec22
+	lcall min7
+	lcall hour0
+	djnz r1,back44g
+	djnz r0,back45g
+	
+	
+	
+	mov r0,#100
+back47g:
+	mov r1,#100
+back46g:
+	lcall sec23
+	lcall min7
+	lcall hour0
+	djnz r1,back46g
+	djnz r0,back47g
+	
+	
+	mov r0,#100
+back49g:
+	mov r1,#100
+back48g:
+	lcall sec24
+	lcall min7
+	lcall hour0
+	djnz r1,back48g
+	djnz r0,back49g
+	
+	
+	mov r0,#100
+back51g:
+	mov r1,#100
+back50g:
+	lcall sec25
+	lcall min7
+	lcall hour0
+	djnz r1,back50g
+	djnz r0,back51g
+	
+	
+	mov r0,#100
+back53g:
+	mov r1,#100
+back52g:
+	lcall sec26
+	lcall min7
+	lcall hour0
+	djnz r1,back52g
+	djnz r0,back53g
+	
+	
+	mov r0,#100
+back55g:
+	mov r1,#100
+back54g:
+	lcall sec27
+	lcall min7
+	lcall hour0
+	djnz r1,back54g
+	djnz r0,back55g
+	
+	
+		mov r0,#100
+back57g:
+	mov r1,#100
+back56g:
+	lcall sec28
+	lcall min7
+	lcall hour0
+	djnz r1,back56g
+	djnz r0,back57g
+	
+	
+	
+	mov r0,#100
+back59g:
+	mov r1,#100
+back58g:
+	lcall sec29
+	lcall min7
+	lcall hour0
+	djnz r1,back58g
+	djnz r0,back59g
+	
+	
+	
+	mov r0,#100
+back61g:
+	mov r1,#100
+back60g:
+	lcall sec30
+	lcall min7
+	lcall hour0
+	djnz r1,back60g
+	djnz r0,back61g
+	
+	
+	mov r0,#100
+back63g:
+	mov r1,#100
+back62g:
+	lcall sec31
+	lcall min7
+	lcall hour0
+	djnz r1,back62g
+	djnz r0,back63g
+	
+	
+	mov r0,#100
+back65g:
+	mov r1,#100
+back64g:
+	lcall sec32
+	lcall min7
+	lcall hour0
+	djnz r1,back64g
+	djnz r0,back65g
+	
+	
+	mov r0,#100
+back67g:
+	mov r1,#100
+back66g:
+	lcall sec33
+	lcall min7
+	lcall hour0
+	djnz r1,back66g
+	djnz r0,back67g
+	
+	
+	mov r0,#100
+back69g:
+	mov r1,#100
+back68g:
+	lcall sec34
+	lcall min7
+	lcall hour0
+	djnz r1,back68g
+	djnz r0,back69g
+	
+	
+		mov r0,#100
+back71g:
+	mov r1,#100
+back70g:
+	lcall sec35
+	lcall min7
+	lcall hour0
+	djnz r1,back70g
+	djnz r0,back71g
+	
+	
+	
+	mov r0,#100
+back73g:
+	mov r1,#100
+back72g:
+	lcall sec36
+	lcall min7
+	lcall hour0
+	djnz r1,back72g
+	djnz r0,back73g
+	
+	
+	
+	mov r0,#100
+back75g:
+	mov r1,#100
+back74g:
+	lcall sec37
+	lcall min7
+	lcall hour0
+	djnz r1,back74g
+	djnz r0,back75g
+	
+	
+	mov r0,#100
+back77g:
+	mov r1,#100
+back76g:
+	lcall sec38
+	lcall min7
+	lcall hour0
+	djnz r1,back76g
+	djnz r0,back77g
+	
+	
+	mov r0,#100
+back79g:
+	mov r1,#100
+back78g:
+	lcall sec39
+	lcall min7
+	lcall hour0
+	djnz r1,back78g
+	djnz r0,back79g
+	
+	
+	mov r0,#100
+back81g:
+	mov r1,#100
+back80g:
+	lcall sec40
+	lcall min7
+	lcall hour0
+	djnz r1,back80g
+	djnz r0,back81g
+	
+	
+	mov r0,#100
+back83g:
+	mov r1,#100
+back82g:
+	lcall sec41
+	lcall min7
+	lcall hour0
+	djnz r1,back82g
+	djnz r0,back83g
+	
+	
+		mov r0,#100
+back85g:
+	mov r1,#100
+back84g:
+	lcall sec42
+	lcall min7
+	lcall hour0
+	djnz r1,back84g
+	djnz r0,back85g
+	
+	
+	
+	mov r0,#100
+back87g:
+	mov r1,#100
+back86g:
+	lcall sec43
+	lcall min7
+	lcall hour0
+	djnz r1,back86g
+	djnz r0,back87g
+	
+	
+	
+	mov r0,#100
+back89g:
+	mov r1,#100
+back88g:
+	lcall sec44
+	lcall min7
+	lcall hour0
+	djnz r1,back88g
+	djnz r0,back89g
+	
+	
+	mov r0,#100
+back91g:
+	mov r1,#100
+back90g:
+	lcall sec45
+	lcall min7
+	lcall hour0
+	djnz r1,back90g
+	djnz r0,back91g
+	
+	
+	mov r0,#100
+back93g:
+	mov r1,#100
+back92g:
+	lcall sec46
+	lcall min7
+	lcall hour0
+	djnz r1,back92g
+	djnz r0,back93g
+	
+	
+	mov r0,#100
+back95g:
+	mov r1,#100
+back94g:
+	lcall sec47
+	lcall min7
+	lcall hour0
+	djnz r1,back94g
+	djnz r0,back95g
+	
+	
+	mov r0,#100
+back97g:
+	mov r1,#100
+back96g:
+	lcall sec48
+	lcall min7
+	lcall hour0
+	djnz r1,back96g
+	djnz r0,back97g
+	
+	
+		mov r0,#100
+back99g:
+	mov r1,#100
+back98g:
+	lcall sec49
+	lcall min7
+	lcall hour0
+	djnz r1,back98g
+	djnz r0,back99g
+	
+	
+	
+	mov r0,#100
+back101g:
+	mov r1,#100
+back100g:
+	lcall sec50
+	lcall min7
+	lcall hour0
+	djnz r1,back100g
+	djnz r0,back101g
+	
+	
+	
+	mov r0,#100
+back103g:
+	mov r1,#100
+back102g:
+	lcall sec51
+	lcall min7
+	lcall hour0
+	djnz r1,back102g
+	djnz r0,back103g
+	
+	
+	mov r0,#100
+back105g:
+	mov r1,#100
+back104g:
+	lcall sec52
+	lcall min7
+	lcall hour0
+	djnz r1,back104g
+	djnz r0,back105g
+	
+	
+	mov r0,#100
+back107g:
+	mov r1,#100
+back106g:
+	lcall sec53
+	lcall min7
+	lcall hour0
+	djnz r1,back106g
+	djnz r0,back107g
+	
+	
+	mov r0,#100
+back109g:
+	mov r1,#100
+back108g:
+	lcall sec54
+	lcall min7
+	lcall hour0
+	djnz r1,back108g
+	djnz r0,back109g
+	
+	
+	mov r0,#100
+back111g:
+	mov r1,#100
+back110g:
+	lcall sec55
+	lcall min7
+	lcall hour0
+	djnz r1,back110g
+	djnz r0,back111g
+	
+	
+	mov r0,#100
+back113g:
+	mov r1,#100
+back112g:
+	lcall sec56
+	lcall min7
+	lcall hour0
+	djnz r1,back112g
+	djnz r0,back113g
+	
+	
+	mov r0,#100
+back115g:
+	mov r1,#100
+back114g:
+	lcall sec57
+	lcall min7
+	lcall hour0
+	djnz r1,back114g
+	djnz r0,back115g
+	
+	
+	mov r0,#100
+back117g:
+	mov r1,#100
+back116g:
+	lcall sec58
+	lcall min7
+	lcall hour0
+	djnz r1,back116g
+	djnz r0,back117g
+	
+	
+	mov r0,#100
+back119g:
+	mov r1,#100
+back118g:
+	lcall sec59
+	lcall min7
+	lcall hour0
+	djnz r1,back118g
+	djnz r0,back119g
+	
+	
+	mov r0,#100
+back1h:
+	mov r1,#100
+back0h:
+	lcall sec0
+	lcall min8
+	lcall hour0
+	djnz r1,back0h
+	djnz r0,back1h
+	
+	
+	
+	mov r0,#100
+back3h:
+	mov r1,#100
+back2h:
+	lcall sec1
+	lcall min8
+	lcall hour0
+	djnz r1,back2h
+	djnz r0,back3h
+	
+	
+	
+	mov r0,#100
+back5h:
+	mov r1,#100
+back4h:
+	lcall sec2
+	lcall min8
+	lcall hour0
+	djnz r1,back4h
+	djnz r0,back5h
+	
+	
+	mov r0,#100
+back7h:
+	mov r1,#100
+back6h:
+	lcall sec3
+	lcall min8
+	lcall hour0
+	djnz r1,back6h
+	djnz r0,back7h
+	
+	
+	mov r0,#100
+back9h:
+	mov r1,#100
+back8h:
+	lcall sec4
+	lcall min8
+	lcall hour0
+	djnz r1,back8h
+	djnz r0,back9h
+	
+	
+	mov r0,#100
+back11h:
+	mov r1,#100
+back10h:
+	lcall sec5
+	lcall min8
+	lcall hour0
+	djnz r1,back10h
+	djnz r0,back11h
+	
+	
+	mov r0,#100
+back13h:
+	mov r1,#100
+back12h:
+	lcall sec6
+	lcall min8
+	lcall hour0
+	djnz r1,back12h
+	djnz r0,back13h
+	
+	
+		mov r0,#100
+back15h:
+	mov r1,#100
+back14h:
+	lcall sec7
+	lcall min8
+	lcall hour0
+	djnz r1,back14h
+	djnz r0,back15h
+	
+	
+	
+	mov r0,#100
+back17h:
+	mov r1,#100
+back16h:
+	lcall sec8
+	lcall min8
+	lcall hour0
+	djnz r1,back16h
+	djnz r0,back17h
+	
+	
+	
+	mov r0,#100
+back19h:
+	mov r1,#100
+back18h:
+	lcall sec9
+	lcall min8
+	lcall hour0
+	djnz r1,back18h
+	djnz r0,back19h
+	
+	
+	mov r0,#100
+back21h:
+	mov r1,#100
+back20h:
+	lcall sec10
+	lcall min8
+	lcall hour0
+	djnz r1,back20h
+	djnz r0,back21h
+	
+	
+	mov r0,#100
+back23h:
+	mov r1,#100
+back22h:
+	lcall sec11
+	lcall min8
+	lcall hour0
+	djnz r1,back22h
+	djnz r0,back23h
+	
+	
+	mov r0,#100
+back25h:
+	mov r1,#100
+back24h:
+	lcall sec12
+	lcall min8
+	lcall hour0
+	djnz r1,back24h
+	djnz r0,back25h
+	
+	
+	mov r0,#100
+back27h:
+	mov r1,#100
+back26h:
+	lcall sec13
+	lcall min8
+	lcall hour0
+	djnz r1,back26h
+	djnz r0,back27h
+	
+	
+		mov r0,#100
+back29h:
+	mov r1,#100
+back28h:
+	lcall sec14
+	lcall min8
+	lcall hour0
+	djnz r1,back28h
+	djnz r0,back29h
+	
+	
+	
+	mov r0,#100
+back31h:
+	mov r1,#100
+back30h:
+	lcall sec15
+	lcall min8
+	lcall hour0
+	djnz r1,back30h
+	djnz r0,back31h
+	
+	
+	
+	mov r0,#100
+back33h:
+	mov r1,#100
+back32h:
+	lcall sec16
+	lcall min8
+	lcall hour0
+	djnz r1,back32h
+	djnz r0,back33h
+	
+	
+	mov r0,#100
+back35h:
+	mov r1,#100
+back34h:
+	lcall sec17
+	lcall min8
+	lcall hour0
+	djnz r1,back34h
+	djnz r0,back35h
+	
+	
+	mov r0,#100
+back37h:
+	mov r1,#100
+back36h:
+	lcall sec18
+	lcall min8
+	lcall hour0
+	djnz r1,back36h
+	djnz r0,back37h
+	
+	
+	mov r0,#100
+back39h:
+	mov r1,#100
+back38h:
+	lcall sec19
+	lcall min8
+	lcall hour0
+	djnz r1,back38h
+	djnz r0,back39h
+	
+	
+	mov r0,#100
+back41h:
+	mov r1,#100
+back40h:
+	lcall sec20
+	lcall min8
+	lcall hour0
+	djnz r1,back40h
+	djnz r0,back41h
+	
+	
+		mov r0,#100
+back43h:
+	mov r1,#100
+back42h:
+	lcall sec21
+	lcall min8
+	lcall hour0
+	djnz r1,back42h
+	djnz r0,back43h
+	
+	
+	
+	mov r0,#100
+back45h:
+	mov r1,#100
+back44h:
+	lcall sec22
+	lcall min8
+	lcall hour0
+	djnz r1,back44h
+	djnz r0,back45h
+	
+	
+	
+	mov r0,#100
+back47h:
+	mov r1,#100
+back46h:
+	lcall sec23
+	lcall min8
+	lcall hour0
+	djnz r1,back46h
+	djnz r0,back47h
+	
+	
+	mov r0,#100
+back49h:
+	mov r1,#100
+back48h:
+	lcall sec24
+	lcall min8
+	lcall hour0
+	djnz r1,back48h
+	djnz r0,back49h
+	
+	
+	mov r0,#100
+back51h:
+	mov r1,#100
+back50h:
+	lcall sec25
+	lcall min8
+	lcall hour0
+	djnz r1,back50h
+	djnz r0,back51h
+	
+	
+	mov r0,#100
+back53h:
+	mov r1,#100
+back52h:
+	lcall sec26
+	lcall min8
+	lcall hour0
+	djnz r1,back52h
+	djnz r0,back53h
+	
+	
+	mov r0,#100
+back55h:
+	mov r1,#100
+back54h:
+	lcall sec27
+	lcall min8
+	lcall hour0
+	djnz r1,back54h
+	djnz r0,back55h
+	
+	
+		mov r0,#100
+back57h:
+	mov r1,#100
+back56h:
+	lcall sec28
+	lcall min8
+	lcall hour0
+	djnz r1,back56h
+	djnz r0,back57h
+	
+	
+	
+	mov r0,#100
+back59h:
+	mov r1,#100
+back58h:
+	lcall sec29
+	lcall min8
+	lcall hour0
+	djnz r1,back58h
+	djnz r0,back59h
+	
+	
+	
+	mov r0,#100
+back61h:
+	mov r1,#100
+back60h:
+	lcall sec30
+	lcall min8
+	lcall hour0
+	djnz r1,back60h
+	djnz r0,back61h
+	
+	
+	mov r0,#100
+back63h:
+	mov r1,#100
+back62h:
+	lcall sec31
+	lcall min8
+	lcall hour0
+	djnz r1,back62h
+	djnz r0,back63h
+	
+	
+	mov r0,#100
+back65h:
+	mov r1,#100
+back64h:
+	lcall sec32
+	lcall min8
+	lcall hour0
+	djnz r1,back64h
+	djnz r0,back65h
+	
+	
+	mov r0,#100
+back67h:
+	mov r1,#100
+back66h:
+	lcall sec33
+	lcall min8
+	lcall hour0
+	djnz r1,back66h
+	djnz r0,back67h
+	
+	
+	mov r0,#100
+back69h:
+	mov r1,#100
+back68h:
+	lcall sec34
+	lcall min8
+	lcall hour0
+	djnz r1,back68h
+	djnz r0,back69h
+	
+	
+		mov r0,#100
+back71h:
+	mov r1,#100
+back70h:
+	lcall sec35
+	lcall min8
+	lcall hour0
+	djnz r1,back70h
+	djnz r0,back71h
+	
+	
+	
+	mov r0,#100
+back73h:
+	mov r1,#100
+back72h:
+	lcall sec36
+	lcall min8
+	lcall hour0
+	djnz r1,back72h
+	djnz r0,back73h
+	
+	
+	
+	mov r0,#100
+back75h:
+	mov r1,#100
+back74h:
+	lcall sec37
+	lcall min8
+	lcall hour0
+	djnz r1,back74h
+	djnz r0,back75h
+	
+	
+	mov r0,#100
+back77h:
+	mov r1,#100
+back76h:
+	lcall sec38
+	lcall min8
+	lcall hour0
+	djnz r1,back76h
+	djnz r0,back77h
+	
+	
+	mov r0,#100
+back79h:
+	mov r1,#100
+back78h:
+	lcall sec39
+	lcall min8
+	lcall hour0
+	djnz r1,back78h
+	djnz r0,back79h
+	
+	
+	mov r0,#100
+back81h:
+	mov r1,#100
+back80h:
+	lcall sec40
+	lcall min8
+	lcall hour0
+	djnz r1,back80h
+	djnz r0,back81h
+	
+	
+	mov r0,#100
+back83h:
+	mov r1,#100
+back82h:
+	lcall sec41
+	lcall min8
+	lcall hour0
+	djnz r1,back82h
+	djnz r0,back83h
+	
+	
+		mov r0,#100
+back85h:
+	mov r1,#100
+back84h:
+	lcall sec42
+	lcall min8
+	lcall hour0
+	djnz r1,back84h
+	djnz r0,back85h
+	
+	
+	
+	mov r0,#100
+back87h:
+	mov r1,#100
+back86h:
+	lcall sec43
+	lcall min8
+	lcall hour0
+	djnz r1,back86h
+	djnz r0,back87h
+	
+	
+	
+	mov r0,#100
+back89h:
+	mov r1,#100
+back88h:
+	lcall sec44
+	lcall min8
+	lcall hour0
+	djnz r1,back88h
+	djnz r0,back89h
+	
+	
+	mov r0,#100
+back91h:
+	mov r1,#100
+back90h:
+	lcall sec45
+	lcall min8
+	lcall hour0
+	djnz r1,back90h
+	djnz r0,back91h
+	
+	
+	mov r0,#100
+back93h:
+	mov r1,#100
+back92h:
+	lcall sec46
+	lcall min8
+	lcall hour0
+	djnz r1,back92h
+	djnz r0,back93h
+	
+	
+	mov r0,#100
+back95h:
+	mov r1,#100
+back94h:
+	lcall sec47
+	lcall min8
+	lcall hour0
+	djnz r1,back94h
+	djnz r0,back95h
+	
+	
+	mov r0,#100
+back97h:
+	mov r1,#100
+back96h:
+	lcall sec48
+	lcall min8
+	lcall hour0
+	djnz r1,back96h
+	djnz r0,back97h
+	
+	
+		mov r0,#100
+back99h:
+	mov r1,#100
+back98h:
+	lcall sec49
+	lcall min8
+	lcall hour0
+	djnz r1,back98h
+	djnz r0,back99h
+	
+	
+	
+	mov r0,#100
+back101h:
+	mov r1,#100
+back100h:
+	lcall sec50
+	lcall min8
+	lcall hour0
+	djnz r1,back100h
+	djnz r0,back101h
+	
+	
+	
+	mov r0,#100
+back103h:
+	mov r1,#100
+back102h:
+	lcall sec51
+	lcall min8
+	lcall hour0
+	djnz r1,back102h
+	djnz r0,back103h
+	
+	
+	mov r0,#100
+back105h:
+	mov r1,#100
+back104h:
+	lcall sec52
+	lcall min8
+	lcall hour0
+	djnz r1,back104h
+	djnz r0,back105h
+	
+	
+	mov r0,#100
+back107h:
+	mov r1,#100
+back106h:
+	lcall sec53
+	lcall min8
+	lcall hour0
+	djnz r1,back106h
+	djnz r0,back107h
+	
+	
+	mov r0,#100
+back109h:
+	mov r1,#100
+back108h:
+	lcall sec54
+	lcall min8
+	lcall hour0
+	djnz r1,back108h
+	djnz r0,back109h
+	
+	
+	mov r0,#100
+back111h:
+	mov r1,#100
+back110h:
+	lcall sec55
+	lcall min8
+	lcall hour0
+	djnz r1,back110h
+	djnz r0,back111h
+	
+	
+	mov r0,#100
+back113h:
+	mov r1,#100
+back112h:
+	lcall sec56
+	lcall min8
+	lcall hour0
+	djnz r1,back112h
+	djnz r0,back113h
+	
+	
+	mov r0,#100
+back115h:
+	mov r1,#100
+back114h:
+	lcall sec57
+	lcall min8
+	lcall hour0
+	djnz r1,back114h
+	djnz r0,back115h
+	
+	
+	mov r0,#100
+back117h:
+	mov r1,#100
+back116h:
+	lcall sec58
+	lcall min8
+	lcall hour0
+	djnz r1,back116h
+	djnz r0,back117h
+	
+	
+	mov r0,#100
+back119h:
+	mov r1,#100
+back118h:
+	lcall sec59
+	lcall min8
+	lcall hour0
+	djnz r1,back118h
+	djnz r0,back119h
+	
+	
+	mov r0,#100
+back1i:
+	mov r1,#100
+back0i:
+	lcall sec0
+	lcall min9
+	lcall hour0
+	djnz r1,back0i
+	djnz r0,back1i
+	
+	
+	
+	mov r0,#100
+back3i:
+	mov r1,#100
+back2i:
+	lcall sec1
+	lcall min9
+	lcall hour0
+	djnz r1,back2i
+	djnz r0,back3i
+	
+	
+	
+	mov r0,#100
+back5i:
+	mov r1,#100
+back4i:
+	lcall sec2
+	lcall min9
+	lcall hour0
+	djnz r1,back4i
+	djnz r0,back5i
+	
+	
+	mov r0,#100
+back7i:
+	mov r1,#100
+back6i:
+	lcall sec3
+	lcall min9
+	lcall hour0
+	djnz r1,back6i
+	djnz r0,back7i
+	
+	
+	mov r0,#100
+back9i:
+	mov r1,#100
+back8i:
+	lcall sec4
+	lcall min9
+	lcall hour0
+	djnz r1,back8i
+	djnz r0,back9i
+	
+	
+	mov r0,#100
+back11i:
+	mov r1,#100
+back10i:
+	lcall sec5
+	lcall min9
+	lcall hour0
+	djnz r1,back10i
+	djnz r0,back11i
+	
+	
+	mov r0,#100
+back13i:
+	mov r1,#100
+back12i:
+	lcall sec6
+	lcall min9
+	lcall hour0
+	djnz r1,back12i
+	djnz r0,back13i
+	
+	
+		mov r0,#100
+back15i:
+	mov r1,#100
+back14i:
+	lcall sec7
+	lcall min9
+	lcall hour0
+	djnz r1,back14i
+	djnz r0,back15i
+	
+	
+	
+	mov r0,#100
+back17i:
+	mov r1,#100
+back16i:
+	lcall sec8
+	lcall min9
+	lcall hour0
+	djnz r1,back16i
+	djnz r0,back17i
+	
+	
+	
+	mov r0,#100
+back19i:
+	mov r1,#100
+back18i:
+	lcall sec9
+	lcall min9
+	lcall hour0
+	djnz r1,back18i
+	djnz r0,back19i
+	
+	
+	mov r0,#100
+back21i:
+	mov r1,#100
+back20i:
+	lcall sec10
+	lcall min9
+	lcall hour0
+	djnz r1,back20i
+	djnz r0,back21i
+	
+	
+	mov r0,#100
+back23i:
+	mov r1,#100
+back22i:
+	lcall sec11
+	lcall min9
+	lcall hour0
+	djnz r1,back22i
+	djnz r0,back23i
+	
+	
+	mov r0,#100
+back25i:
+	mov r1,#100
+back24i:
+	lcall sec12
+	lcall min9
+	lcall hour0
+	djnz r1,back24i
+	djnz r0,back25i
+	
+	
+	mov r0,#100
+back27i:
+	mov r1,#100
+back26i:
+	lcall sec13
+	lcall min9
+	lcall hour0
+	djnz r1,back26i
+	djnz r0,back27i
+	
+	
+		mov r0,#100
+back29i:
+	mov r1,#100
+back28i:
+	lcall sec14
+	lcall min9
+	lcall hour0
+	djnz r1,back28i
+	djnz r0,back29i
+	
+	
+	
+	mov r0,#100
+back31i:
+	mov r1,#100
+back30i:
+	lcall sec15
+	lcall min9
+	lcall hour0
+	djnz r1,back30i
+	djnz r0,back31i
+	
+	
+	
+	mov r0,#100
+back33i:
+	mov r1,#100
+back32i:
+	lcall sec16
+	lcall min9
+	lcall hour0
+	djnz r1,back32i
+	djnz r0,back33i
+	
+	
+	mov r0,#100
+back35i:
+	mov r1,#100
+back34i:
+	lcall sec17
+	lcall min9
+	lcall hour0
+	djnz r1,back34i
+	djnz r0,back35i
+	
+	
+	mov r0,#100
+back37i:
+	mov r1,#100
+back36i:
+	lcall sec18
+	lcall min9
+	lcall hour0
+	djnz r1,back36i
+	djnz r0,back37i
+	
+	
+	mov r0,#100
+back39i:
+	mov r1,#100
+back38i:
+	lcall sec19
+	lcall min9
+	lcall hour0
+	djnz r1,back38i
+	djnz r0,back39i
+	
+	
+	mov r0,#100
+back41i:
+	mov r1,#100
+back40i:
+	lcall sec20
+	lcall min9
+	lcall hour0
+	djnz r1,back40i
+	djnz r0,back41i
+	
+	
+		mov r0,#100
+back43i:
+	mov r1,#100
+back42i:
+	lcall sec21
+	lcall min9
+	lcall hour0
+	djnz r1,back42i
+	djnz r0,back43i
+	
+	
+	
+	mov r0,#100
+back45i:
+	mov r1,#100
+back44i:
+	lcall sec22
+	lcall min9
+	lcall hour0
+	djnz r1,back44i
+	djnz r0,back45i
+	
+	
+	
+	mov r0,#100
+back47i:
+	mov r1,#100
+back46i:
+	lcall sec23
+	lcall min9
+	lcall hour0
+	djnz r1,back46i
+	djnz r0,back47i
+	
+	
+	mov r0,#100
+back49i:
+	mov r1,#100
+back48i:
+	lcall sec24
+	lcall min9
+	lcall hour0
+	djnz r1,back48i
+	djnz r0,back49i
+	
+	
+	mov r0,#100
+back51i:
+	mov r1,#100
+back50i:
+	lcall sec25
+	lcall min9
+	lcall hour0
+	djnz r1,back50i
+	djnz r0,back51i
+	
+	
+	mov r0,#100
+back53i:
+	mov r1,#100
+back52i:
+	lcall sec26
+	lcall min9
+	lcall hour0
+	djnz r1,back52i
+	djnz r0,back53i
+	
+	
+	mov r0,#100
+back55i:
+	mov r1,#100
+back54i:
+	lcall sec27
+	lcall min9
+	lcall hour0
+	djnz r1,back54i
+	djnz r0,back55i
+	
+	
+		mov r0,#100
+back57i:
+	mov r1,#100
+back56i:
+	lcall sec28
+	lcall min9
+	lcall hour0
+	djnz r1,back56i
+	djnz r0,back57i
+	
+	
+	
+	mov r0,#100
+back59i:
+	mov r1,#100
+back58i:
+	lcall sec29
+	lcall min9
+	lcall hour0
+	djnz r1,back58i
+	djnz r0,back59i
+	
+	
+	
+	mov r0,#100
+back61i:
+	mov r1,#100
+back60i:
+	lcall sec30
+	lcall min9
+	lcall hour0
+	djnz r1,back60i
+	djnz r0,back61i
+	
+	
+	mov r0,#100
+back63i:
+	mov r1,#100
+back62i:
+	lcall sec31
+	lcall min9
+	lcall hour0
+	djnz r1,back62i
+	djnz r0,back63i
+	
+	
+	mov r0,#100
+back65i:
+	mov r1,#100
+back64i:
+	lcall sec32
+	lcall min9
+	lcall hour0
+	djnz r1,back64i
+	djnz r0,back65i
+	
+	
+	mov r0,#100
+back67i:
+	mov r1,#100
+back66i:
+	lcall sec33
+	lcall min9
+	lcall hour0
+	djnz r1,back66i
+	djnz r0,back67i
+	
+	
+	mov r0,#100
+back69i:
+	mov r1,#100
+back68i:
+	lcall sec34
+	lcall min9
+	lcall hour0
+	djnz r1,back68i
+	djnz r0,back69i
+	
+	
+		mov r0,#100
+back71i:
+	mov r1,#100
+back70i:
+	lcall sec35
+	lcall min9
+	lcall hour0
+	djnz r1,back70i
+	djnz r0,back71i
+	
+	
+	
+	mov r0,#100
+back73i:
+	mov r1,#100
+back72i:
+	lcall sec36
+	lcall min9
+	lcall hour0
+	djnz r1,back72i
+	djnz r0,back73i
+	
+	
+	
+	mov r0,#100
+back75i:
+	mov r1,#100
+back74i:
+	lcall sec37
+	lcall min9
+	lcall hour0
+	djnz r1,back74i
+	djnz r0,back75i
+	
+	
+	mov r0,#100
+back77i:
+	mov r1,#100
+back76i:
+	lcall sec38
+	lcall min9
+	lcall hour0
+	djnz r1,back76i
+	djnz r0,back77i
+	
+	
+	mov r0,#100
+back79i:
+	mov r1,#100
+back78i:
+	lcall sec39
+	lcall min9
+	lcall hour0
+	djnz r1,back78i
+	djnz r0,back79i
+	
+	
+	mov r0,#100
+back81i:
+	mov r1,#100
+back80i:
+	lcall sec40
+	lcall min9
+	lcall hour0
+	djnz r1,back80i
+	djnz r0,back81i
+	
+	
+	mov r0,#100
+back83i:
+	mov r1,#100
+back82i:
+	lcall sec41
+	lcall min9
+	lcall hour0
+	djnz r1,back82i
+	djnz r0,back83i
+	
+	
+		mov r0,#100
+back85i:
+	mov r1,#100
+back84i:
+	lcall sec42
+	lcall min9
+	lcall hour0
+	djnz r1,back84i
+	djnz r0,back85i
+	
+	
+	
+	mov r0,#100
+back87i:
+	mov r1,#100
+back86i:
+	lcall sec43
+	lcall min9
+	lcall hour0
+	djnz r1,back86i
+	djnz r0,back87i
+	
+	
+	
+	mov r0,#100
+back89i:
+	mov r1,#100
+back88i:
+	lcall sec44
+	lcall min9
+	lcall hour0
+	djnz r1,back88i
+	djnz r0,back89i
+	
+	
+	mov r0,#100
+back91i:
+	mov r1,#100
+back90i:
+	lcall sec45
+	lcall min9
+	lcall hour0
+	djnz r1,back90i
+	djnz r0,back91i
+	
+	
+	mov r0,#100
+back93i:
+	mov r1,#100
+back92i:
+	lcall sec46
+	lcall min9
+	lcall hour0
+	djnz r1,back92i
+	djnz r0,back93i
+	
+	
+	mov r0,#100
+back95i:
+	mov r1,#100
+back94i:
+	lcall sec47
+	lcall min9
+	lcall hour0
+	djnz r1,back94i
+	djnz r0,back95i
+	
+	
+	mov r0,#100
+back97i:
+	mov r1,#100
+back96i:
+	lcall sec48
+	lcall min9
+	lcall hour0
+	djnz r1,back96i
+	djnz r0,back97i
+	
+	
+		mov r0,#100
+back99i:
+	mov r1,#100
+back98i:
+	lcall sec49
+	lcall min9
+	lcall hour0
+	djnz r1,back98i
+	djnz r0,back99i
+	
+	
+	
+	mov r0,#100
+back101i:
+	mov r1,#100
+back100i:
+	lcall sec50
+	lcall min9
+	lcall hour0
+	djnz r1,back100i
+	djnz r0,back101i
+	
+	
+	
+	mov r0,#100
+back103i:
+	mov r1,#100
+back102i:
+	lcall sec51
+	lcall min9
+	lcall hour0
+	djnz r1,back102i
+	djnz r0,back103i
+	
+	
+	mov r0,#100
+back105i:
+	mov r1,#100
+back104i:
+	lcall sec52
+	lcall min9
+	lcall hour0
+	djnz r1,back104i
+	djnz r0,back105i
+	
+	
+	mov r0,#100
+back107i:
+	mov r1,#100
+back106i:
+	lcall sec53
+	lcall min9
+	lcall hour0
+	djnz r1,back106i
+	djnz r0,back107i
+	
+	
+	mov r0,#100
+back109i:
+	mov r1,#100
+back108i:
+	lcall sec54
+	lcall min9
+	lcall hour0
+	djnz r1,back108i
+	djnz r0,back109i
+	
+	
+	mov r0,#100
+back111i:
+	mov r1,#100
+back110i:
+	lcall sec55
+	lcall min9
+	lcall hour0
+	djnz r1,back110i
+	djnz r0,back111i
+	
+	
+	mov r0,#100
+back113i:
+	mov r1,#100
+back112i:
+	lcall sec56
+	lcall min9
+	lcall hour0
+	djnz r1,back112i
+	djnz r0,back113i
+	
+	
+	mov r0,#100
+back115i:
+	mov r1,#100
+back114i:
+	lcall sec57
+	lcall min9
+	lcall hour0
+	djnz r1,back114i
+	djnz r0,back115i
+	
+	
+	mov r0,#100
+back117i:
+	mov r1,#100
+back116i:
+	lcall sec58
+	lcall min9
+	lcall hour0
+	djnz r1,back116i
+	djnz r0,back117i
+	
+	
+	mov r0,#100
+back119i:
+	mov r1,#100
+back118i:
+	lcall sec59
+	lcall min9
+	lcall hour0
+	djnz r1,back118i
+	djnz r0,back119i
+	
+	
+	mov r0,#100
+back1j:
+	mov r1,#100
+back0j:
+	lcall sec0
+	lcall min10
+	lcall hour0
+	djnz r1,back0j
+	djnz r0,back1j
+	
+	
+	
+	mov r0,#100
+back3j:
+	mov r1,#100
+back2j:
+	lcall sec1
+	lcall min10
+	lcall hour0
+	djnz r1,back2j
+	djnz r0,back3j
+	
+	
+	
+	mov r0,#100
+back5j:
+	mov r1,#100
+back4j:
+	lcall sec2
+	lcall min10
+	lcall hour0
+	djnz r1,back4j
+	djnz r0,back5j
+	
+	
+	mov r0,#100
+back7j:
+	mov r1,#100
+back6j:
+	lcall sec3
+	lcall min10
+	lcall hour0
+	djnz r1,back6j
+	djnz r0,back7j
+	
+	
+	mov r0,#100
+back9j:
+	mov r1,#100
+back8j:
+	lcall sec4
+	lcall min10
+	lcall hour0
+	djnz r1,back8j
+	djnz r0,back9j
+	
+	
+	mov r0,#100
+back11j:
+	mov r1,#100
+back10j:
+	lcall sec5
+	lcall min10
+	lcall hour0
+	djnz r1,back10j
+	djnz r0,back11j
+	
+	
+	mov r0,#100
+back13j:
+	mov r1,#100
+back12j:
+	lcall sec6
+	lcall min10
+	lcall hour0
+	djnz r1,back12j
+	djnz r0,back13j
+	
+	
+		mov r0,#100
+back15j:
+	mov r1,#100
+back14j:
+	lcall sec7
+	lcall min10
+	lcall hour0
+	djnz r1,back14j
+	djnz r0,back15j
+	
+	
+	
+	mov r0,#100
+back17j:
+	mov r1,#100
+back16j:
+	lcall sec8
+	lcall min10
+	lcall hour0
+	djnz r1,back16j
+	djnz r0,back17j
+	
+	
+	
+	mov r0,#100
+back19j:
+	mov r1,#100
+back18j:
+	lcall sec9
+	lcall min10
+	lcall hour0
+	djnz r1,back18j
+	djnz r0,back19j
+	
+	
+	mov r0,#100
+back21j:
+	mov r1,#100
+back20j:
+	lcall sec10
+	lcall min10
+	lcall hour0
+	djnz r1,back20j
+	djnz r0,back21j
+	
+	
+	mov r0,#100
+back23j:
+	mov r1,#100
+back22j:
+	lcall sec11
+	lcall min10
+	lcall hour0
+	djnz r1,back22j
+	djnz r0,back23j
+	
+	
+	mov r0,#100
+back25j:
+	mov r1,#100
+back24j:
+	lcall sec12
+	lcall min10
+	lcall hour0
+	djnz r1,back24j
+	djnz r0,back25j
+	
+	
+	mov r0,#100
+back27j:
+	mov r1,#100
+back26j:
+	lcall sec13
+	lcall min10
+	lcall hour0
+	djnz r1,back26j
+	djnz r0,back27j
+	
+	
+		mov r0,#100
+back29j:
+	mov r1,#100
+back28j:
+	lcall sec14
+	lcall min10
+	lcall hour0
+	djnz r1,back28j
+	djnz r0,back29j
+	
+	
+	
+	mov r0,#100
+back31j:
+	mov r1,#100
+back30j:
+	lcall sec15
+	lcall min10
+	lcall hour0
+	djnz r1,back30j
+	djnz r0,back31j
+	
+	
+	
+	mov r0,#100
+back33j:
+	mov r1,#100
+back32j:
+	lcall sec16
+	lcall min10
+	lcall hour0
+	djnz r1,back32j
+	djnz r0,back33j
+	
+	
+	mov r0,#100
+back35j:
+	mov r1,#100
+back34j:
+	lcall sec17
+	lcall min10
+	lcall hour0
+	djnz r1,back34j
+	djnz r0,back35j
+	
+	
+	mov r0,#100
+back37j:
+	mov r1,#100
+back36j:
+	lcall sec18
+	lcall min10
+	lcall hour0
+	djnz r1,back36j
+	djnz r0,back37j
+	
+	
+	mov r0,#100
+back39j:
+	mov r1,#100
+back38j:
+	lcall sec19
+	lcall min10
+	lcall hour0
+	djnz r1,back38j
+	djnz r0,back39j
+	
+	
+	mov r0,#100
+back41j:
+	mov r1,#100
+back40j:
+	lcall sec20
+	lcall min10
+	lcall hour0
+	djnz r1,back40j
+	djnz r0,back41j
+	
+	
+		mov r0,#100
+back43j:
+	mov r1,#100
+back42j:
+	lcall sec21
+	lcall min10
+	lcall hour0
+	djnz r1,back42j
+	djnz r0,back43j
+	
+	
+	
+	mov r0,#100
+back45j:
+	mov r1,#100
+back44j:
+	lcall sec22
+	lcall min10
+	lcall hour0
+	djnz r1,back44j
+	djnz r0,back45j
+	
+	
+	
+	mov r0,#100
+back47j:
+	mov r1,#100
+back46j:
+	lcall sec23
+	lcall min10
+	lcall hour0
+	djnz r1,back46j
+	djnz r0,back47j
+	
+	
+	mov r0,#100
+back49j:
+	mov r1,#100
+back48j:
+	lcall sec24
+	lcall min10
+	lcall hour0
+	djnz r1,back48j
+	djnz r0,back49j
+	
+	
+	mov r0,#100
+back51j:
+	mov r1,#100
+back50j:
+	lcall sec25
+	lcall min10
+	lcall hour0
+	djnz r1,back50j
+	djnz r0,back51j
+	
+	
+	mov r0,#100
+back53j:
+	mov r1,#100
+back52j:
+	lcall sec26
+	lcall min10
+	lcall hour0
+	djnz r1,back52j
+	djnz r0,back53j
+	
+	
+	mov r0,#100
+back55j:
+	mov r1,#100
+back54j:
+	lcall sec27
+	lcall min10
+	lcall hour0
+	djnz r1,back54j
+	djnz r0,back55j
+	
+	
+		mov r0,#100
+back57j:
+	mov r1,#100
+back56j:
+	lcall sec28
+	lcall min10
+	lcall hour0
+	djnz r1,back56j
+	djnz r0,back57j
+	
+	
+	
+	mov r0,#100
+back59j:
+	mov r1,#100
+back58j:
+	lcall sec29
+	lcall min10
+	lcall hour0
+	djnz r1,back58j
+	djnz r0,back59j
+	
+	
+	
+	mov r0,#100
+back61j:
+	mov r1,#100
+back60j:
+	lcall sec30
+	lcall min10
+	lcall hour0
+	djnz r1,back60j
+	djnz r0,back61j
+	
+	
+	mov r0,#100
+back63j:
+	mov r1,#100
+back62j:
+	lcall sec31
+	lcall min10
+	lcall hour0
+	djnz r1,back62j
+	djnz r0,back63j
+	
+	
+	mov r0,#100
+back65j:
+	mov r1,#100
+back64j:
+	lcall sec32
+	lcall min10
+	lcall hour0
+	djnz r1,back64j
+	djnz r0,back65j
+	
+	
+	mov r0,#100
+back67j:
+	mov r1,#100
+back66j:
+	lcall sec33
+	lcall min10
+	lcall hour0
+	djnz r1,back66j
+	djnz r0,back67j
+	
+	
+	mov r0,#100
+back69j:
+	mov r1,#100
+back68j:
+	lcall sec34
+	lcall min10
+	lcall hour0
+	djnz r1,back68j
+	djnz r0,back69j
+	
+	
+		mov r0,#100
+back71j:
+	mov r1,#100
+back70j:
+	lcall sec35
+	lcall min10
+	lcall hour0
+	djnz r1,back70j
+	djnz r0,back71j
+	
+	
+	
+	mov r0,#100
+back73j:
+	mov r1,#100
+back72j:
+	lcall sec36
+	lcall min10
+	lcall hour0
+	djnz r1,back72j
+	djnz r0,back73j
+	
+	
+	
+	mov r0,#100
+back75j:
+	mov r1,#100
+back74j:
+	lcall sec37
+	lcall min10
+	lcall hour0
+	djnz r1,back74j
+	djnz r0,back75j
+	
+	
+	mov r0,#100
+back77j:
+	mov r1,#100
+back76j:
+	lcall sec38
+	lcall min10
+	lcall hour0
+	djnz r1,back76j
+	djnz r0,back77j
+	
+	
+	mov r0,#100
+back79j:
+	mov r1,#100
+back78j:
+	lcall sec39
+	lcall min10
+	lcall hour0
+	djnz r1,back78j
+	djnz r0,back79j
+	
+	
+	mov r0,#100
+back81j:
+	mov r1,#100
+back80j:
+	lcall sec40
+	lcall min10
+	lcall hour0
+	djnz r1,back80j
+	djnz r0,back81j
+	
+	
+	mov r0,#100
+back83j:
+	mov r1,#100
+back82j:
+	lcall sec41
+	lcall min10
+	lcall hour0
+	djnz r1,back82j
+	djnz r0,back83j
+	
+	
+		mov r0,#100
+back85j:
+	mov r1,#100
+back84j:
+	lcall sec42
+	lcall min10
+	lcall hour0
+	djnz r1,back84j
+	djnz r0,back85j
+	
+	
+	
+	mov r0,#100
+back87j:
+	mov r1,#100
+back86j:
+	lcall sec43
+	lcall min10
+	lcall hour0
+	djnz r1,back86j
+	djnz r0,back87j
+	
+	
+	
+	mov r0,#100
+back89j:
+	mov r1,#100
+back88j:
+	lcall sec44
+	lcall min10
+	lcall hour0
+	djnz r1,back88j
+	djnz r0,back89j
+	
+	
+	mov r0,#100
+back91j:
+	mov r1,#100
+back90j:
+	lcall sec45
+	lcall min10
+	lcall hour0
+	djnz r1,back90j
+	djnz r0,back91j
+	
+	
+	mov r0,#100
+back93j:
+	mov r1,#100
+back92j:
+	lcall sec46
+	lcall min10
+	lcall hour0
+	djnz r1,back92j
+	djnz r0,back93j
+	
+	
+	mov r0,#100
+back95j:
+	mov r1,#100
+back94j:
+	lcall sec47
+	lcall min10
+	lcall hour0
+	djnz r1,back94j
+	djnz r0,back95j
+	
+	
+	mov r0,#100
+back97j:
+	mov r1,#100
+back96j:
+	lcall sec48
+	lcall min10
+	lcall hour0
+	djnz r1,back96j
+	djnz r0,back97j
+	
+	
+		mov r0,#100
+back99j:
+	mov r1,#100
+back98j:
+	lcall sec49
+	lcall min10
+	lcall hour0
+	djnz r1,back98j
+	djnz r0,back99j
+	
+	
+	
+	mov r0,#100
+back101j:
+	mov r1,#100
+back100j:
+	lcall sec50
+	lcall min10
+	lcall hour0
+	djnz r1,back100j
+	djnz r0,back101j
+	
+	
+	
+	mov r0,#100
+back103j:
+	mov r1,#100
+back102j:
+	lcall sec51
+	lcall min10
+	lcall hour0
+	djnz r1,back102j
+	djnz r0,back103j
+	
+	
+	mov r0,#100
+back105j:
+	mov r1,#100
+back104j:
+	lcall sec52
+	lcall min10
+	lcall hour0
+	djnz r1,back104j
+	djnz r0,back105j
+	
+	
+	mov r0,#100
+back107j:
+	mov r1,#100
+back106j:
+	lcall sec53
+	lcall min10
+	lcall hour0
+	djnz r1,back106j
+	djnz r0,back107j
+	
+	
+	mov r0,#100
+back109j:
+	mov r1,#100
+back108j:
+	lcall sec54
+	lcall min10
+	lcall hour0
+	djnz r1,back108j
+	djnz r0,back109j
+	
+	
+	mov r0,#100
+back111j:
+	mov r1,#100
+back110j:
+	lcall sec55
+	lcall min10
+	lcall hour0
+	djnz r1,back110j
+	djnz r0,back111j
+	
+	
+	mov r0,#100
+back113j:
+	mov r1,#100
+back112j:
+	lcall sec56
+	lcall min10
+	lcall hour0
+	djnz r1,back112j
+	djnz r0,back113j
+	
+	
+	mov r0,#100
+back115j:
+	mov r1,#100
+back114j:
+	lcall sec57
+	lcall min10
+	lcall hour0
+	djnz r1,back114j
+	djnz r0,back115j
+	
+	
+	mov r0,#100
+back117j:
+	mov r1,#100
+back116j:
+	lcall sec58
+	lcall min10
+	lcall hour0
+	djnz r1,back116j
+	djnz r0,back117j
+	
+	
+	mov r0,#100
+back119j:
+	mov r1,#100
+back118j:
+	lcall sec59
+	lcall min10
+	lcall hour0
+	djnz r1,back118j
+	djnz r0,back119j
+	
+	
+sec0:
+	mov r0,#23
+here0:
+	djnz r0,here0
+	mov p3,#0f8h
+	mov p0,#10h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec1:
+	mov r0,#23
+here1:
+	djnz r0,here1
+	mov p3,#0f8h
+	mov p0,#11h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec2:
+	mov r0,#23
+here2:
+	djnz r0,here2
+	mov p3,#0f8h
+	mov p0,#12h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec3:
+	mov r0,#23
+here3:
+	djnz r0,here3
+	mov p3,#0f8h
+	mov p0,#13h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec4:
+	mov r0,#23
+here4:
+	djnz r0,here4
+	mov p3,#0f8h
+	mov p0,#14h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec5:
+	mov r0,#23
+here5:
+	djnz r0,here5
+	mov p3,#0f8h
+	mov p0,#15h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec6:
+	mov r0,#23
+here6:
+	djnz r0,here6
+	mov p3,#0f8h
+	mov p0,#16h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec7:
+	mov r0,#23
+here7:
+	djnz r0,here7
+	mov p3,#0f8h
+	mov p0,#17h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+	
+sec8:
+	mov r0,#23
+here8:
+	djnz r0,here8
+	mov p3,#0f8h
+	mov p0,#18h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec9:
+	mov r0,#23
+here9:
+	djnz r0,here9
+	mov p3,#0f8h
+	mov p0,#19h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec10:
+	mov r0,#23
+here10:
+	djnz r0,here10
+	mov p3,#0f8h
+	mov p0,#1ah
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec11:
+	mov r0,#23
+here11:
+	djnz r0,here11
+	mov p3,#0f8h
+	mov p0,#1bh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec12:
+	mov r0,#23
+here12:
+	djnz r0,here12
+	mov p3,#0f8h
+	mov p0,#1ch
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec13:
+	mov r0,#23
+here13:
+	djnz r0,here13
+	mov p3,#0f8h
+	mov p0,#1dh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec14:
+	mov r0,#23
+here14:
+	djnz r0,here14
+	mov p3,#0f8h
+	mov p0,#1eh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec15:
+	mov r0,#23
+here15:
+	djnz r0,here15
+	mov p3,#0f8h
+	mov p0,#1fh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec16: 
+	mov r0,#23
+here16:
+	djnz r0,here16
+	mov p3,#0f8h
+	mov p0,#20h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec17:
+	mov r0,#23
+here17:
+	djnz r0,here17
+	mov p3,#0f8h
+	mov p0,#21h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec18:
+	mov r0,#23
+here18:
+	djnz r0,here18
+	mov p3,#0f8h
+	mov p0,#22h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec19:
+	mov r0,#23
+here19:
+	djnz r0,here19
+	mov p3,#0f8h
+	mov p0,#23h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec20:
+	mov r0,#23
+here20:
+	djnz r0,here20
+	mov p3,#0f8h
+	mov p0,#24h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec21:
+	mov r0,#23
+here21:
+	djnz r0,here21
+	mov p3,#0f8h
+	mov p0,#25h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec22:
+	mov r0,#23
+here22:
+	djnz r0,here22
+	mov p3,#0f8h
+	mov p0,#26h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec23:
+	mov r0,#23
+here23:
+	djnz r0,here23
+	mov p3,#0f8h
+	mov p0,#27h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec24:
+	mov r0,#23
+here24:
+	djnz r0,here24
+	mov p3,#0f8h
+	mov p0,#28h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec25:
+	mov r0,#23
+here25:
+	djnz r0,here25
+	mov p3,#0f8h
+	mov p0,#29h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec26:
+	mov r0,#23
+here26:
+	djnz r0,here26
+	mov p3,#0f8h
+	mov p0,#2ah
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec27:
+	mov r0,#23
+here27:
+	djnz r0,here27
+	mov p3,#0f8h
+	mov p0,#2bh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec28:
+	mov r0,#23
+here28:
+	djnz r0,here28
+	mov p3,#0f8h
+	mov p0,#2ch
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec29:
+	mov r0,#23
+here29:
+	djnz r0,here29
+	mov p3,#0f8h
+	mov p0,#2dh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec30:
+	mov r0,#23
+here30:
+	djnz r0,here30
+	mov p3,#0f8h
+	mov p0,#2eh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec31:
+	mov r0,#23
+here31:
+	djnz r0,here31
+	mov p3,#0f8h
+	mov p0,#2fh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec32: 
+	mov r0,#23
+here32:
+	djnz r0,here32
+	mov p3,#0f8h
+	mov p0,#40h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec33:
+	mov r0,#23
+here33:
+	djnz r0,here33
+	mov p3,#0f8h
+	mov p0,#41h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec34:
+	mov r0,#23
+here34:
+	djnz r0,here34
+	mov p3,#0f8h
+	mov p0,#42h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec35:
+	mov r0,#23
+here35:
+	djnz r0,here35
+	mov p3,#0f8h
+	mov p0,#43h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec36:
+	mov r0,#23
+here36:
+	djnz r0,here36
+	mov p3,#0f8h
+	mov p0,#44h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec37:
+	mov r0,#23
+here37:
+	djnz r0,here37
+	mov p3,#0f8h
+	mov p0,#45h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec38:
+	mov r0,#23
+here38:
+	djnz r0,here38
+	mov p3,#0f8h
+	mov p0,#46h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec39:
+	mov r0,#23
+here39:djnz r0,here39
+	mov p3,#0f8h
+	mov p0,#47h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec40:
+	mov r0,#23
+here40:
+	djnz r0,here40
+	mov p3,#0f8h
+	mov p0,#48h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec41:
+	mov r0,#23
+here41:
+	djnz r0,here41
+	mov p3,#0f8h
+	mov p0,#49h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec42:
+	mov r0,#23
+here42:
+	djnz r0,here42
+	mov p3,#0f8h
+	mov p0,#4ah
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec43:
+	mov r0,#23
+here43:
+	djnz r0,here43
+	mov p3,#0f8h
+	mov p0,#4bh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec44:
+	mov r0,#23
+here44:
+	djnz r0,here44
+	mov p3,#0f8h
+	mov p0,#4ch
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec45:
+	mov r0,#23
+here45:
+	djnz r0,here45
+	mov p3,#0f8h
+	mov p0,#4dh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec46:
+	mov r0,#23
+here46:
+	djnz r0,here46
+	mov p3,#0f8h
+	mov p0,#4eh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec47:
+	mov r0,#23
+here47:
+	djnz r0,here47
+	mov p3,#0f8h
+	mov p0,#4fh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec48: 
+	mov r0,#23
+here48:
+	djnz r0,here48
+	mov p3,#0f8h
+	mov p0,#80h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec49:
+	mov r0,#23
+here49:
+	djnz r0,here49
+	mov p3,#0f8h
+	mov p0,#81h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec50:
+	mov r0,#23
+here50:
+	djnz r0,here50
+	mov p3,#0f8h
+	mov p0,#82h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec51:
+	mov r0,#23
+here51:
+	djnz r0,here51
+	mov p3,#0f8h
+	mov p0,#83h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec52:
+	mov r0,#23
+here52:
+	djnz r0,here52
+	mov p3,#0f8h
+	mov p0,#84h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec53:
+	mov r0,#23
+here53:
+	djnz r0,here53
+	mov p3,#0f8h
+	mov p0,#85h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec54:
+	mov r0,#23
+here54:
+	djnz r0,here54
+	mov p3,#0f8h
+	mov p0,#86h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec55:
+	mov r0,#23
+here55:
+	djnz r0,here55
+	mov p3,#0f8h
+	mov p0,#87h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec56:
+	mov r0,#23
+here56:
+	djnz r0,here56
+	mov p3,#0f8h
+	mov p0,#88h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec57:
+	mov r0,#23
+here57:
+	djnz r0,here57
+	mov p3,#0f8h
+	mov p0,#89h
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec58:
+	mov r0,#23
+here58:
+	djnz r0,here58
+	mov p3,#0f8h
+	mov p0,#8ah
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+sec59:
+	mov r0,#23
+here59:
+	djnz r0,here59
+	mov p3,#0f8h
+	mov p0,#8bh
+	mov p3,#00h
+	mov p0,#00h
+	ret
+	
+	
+	
+min0:
+	setb p3.0
+	mov p0,#10h
+	clr p3.0
+	setb p3.1
+	mov p0,#11h
+	mov p0,#8bh
+	clr p3.1
+	setb p3.2
+	mov p0,#11h
+	mov p0,#8bh
+	clr p3.2
+	setb p3.3
+	mov p0,#10h
+	clr p3.3
+	ret
+	
+min1:
+	setb p3.0
+	mov p0,#11h
+	clr p3.0
+	setb p3.1
+	mov p0,#12h
+	mov p0,#10h
+	clr p3.1
+	setb p3.2
+	mov p0,#12h
+	mov p0,#10h
+	clr p3.2
+	setb p3.3
+	mov p0,#11h
+	clr p3.3
+	ret
+	
+min2:
+	setb p3.0
+	mov p0,#12h
+	clr p3.0
+	setb p3.1
+	mov p0,#13h
+	mov p0,#11h
+	clr p3.1
+	setb p3.2
+	mov p0,#13h
+	mov p0,#11h
+	clr p3.2
+	setb p3.3
+	mov p0,#12h
+	clr p3.3
+	ret
+	
+min3:
+	setb p3.0
+	mov p0,#13h
+	clr p3.0
+	setb p3.1
+	mov p0,#14h
+	mov p0,#12h
+	clr p3.1
+	setb p3.2
+	mov p0,#14h
+	mov p0,#12h
+	clr p3.2
+	setb p3.3
+	mov p0,#13h
+	clr p3.3
+	ret
+	
+	
+min4:
+	setb p3.0
+	mov p0,#14h
+	clr p3.0
+	setb p3.1
+	mov p0,#15h
+	mov p0,#13h
+	clr p3.1
+	setb p3.2
+	mov p0,#15h
+	mov p0,#13h
+	clr p3.2
+	setb p3.3
+	mov p0,#14h
+	clr p3.3
+	ret
+	
+min5:
+	setb p3.0
+	mov p0,#15h
+	clr p3.0
+	setb p3.1
+	mov p0,#16h
+	mov p0,#14h
+	clr p3.1
+	setb p3.2
+	mov p0,#16h
+	mov p0,#14h
+	clr p3.2
+	setb p3.3
+	mov p0,#15h
+	clr p3.3
+	ret
+	
+	
+min6:
+	setb p3.0
+	mov p0,#16h
+	clr p3.0
+	setb p3.1
+	mov p0,#17h
+	mov p0,#15h
+	clr p3.1
+	setb p3.2
+	mov p0,#17h
+	mov p0,#15h
+	clr p3.2
+	setb p3.3
+	mov p0,#16h
+	clr p3.3
+	ret
+	
+min7:
+	setb p3.0
+	mov p0,#17h
+	clr p3.0
+	setb p3.1
+	mov p0,#18h
+	mov p0,#16h
+	clr p3.1
+	setb p3.2
+	mov p0,#18h
+	mov p0,#16h
+	clr p3.2
+	setb p3.3
+	mov p0,#17h
+	clr p3.3
+	ret
+		
+min8:
+	setb p3.0
+	mov p0,#18h
+	clr p3.0
+	setb p3.1
+	mov p0,#19h
+	mov p0,#17h
+	clr p3.1
+	setb p3.2
+	mov p0,#19h
+	mov p0,#17h
+	clr p3.2
+	setb p3.3
+	mov p0,#18h
+	clr p3.3
+	ret
+	
+min9:
+	setb p3.0
+	mov p0,#19h
+	clr p3.0
+	setb p3.1
+	mov p0,#1ah
+	mov p0,#18h
+	clr p3.1
+	setb p3.2
+	mov p0,#1ah
+	mov p0,#18h
+	clr p3.2
+	setb p3.3
+	mov p0,#19h
+	clr p3.3
+	ret
+	
+min10:
+	setb p3.0
+	mov p0,#1ah
+	clr p3.0
+	setb p3.1
+	mov p0,#1bh
+	mov p0,#19h
+	clr p3.1
+	setb p3.2
+	mov p0,#1bh
+	mov p0,#19h
+	clr p3.2
+	setb p3.3
+	mov p0,#1ah
+	clr p3.3
+	ret
+	
+min11:
+	setb p3.0
+	mov p0,#1bh
+	clr p3.0
+	setb p3.1
+	mov p0,#1ch
+	mov p0,#1ah
+	clr p3.1
+	setb p3.2
+	mov p0,#1ch
+	mov p0,#1ah
+	clr p3.2
+	setb p3.3
+	mov p0,#1bh
+	clr p3.3
+	ret
+	
+min12:
+	setb p3.0
+	mov p0,#1ch
+	clr p3.0
+	setb p3.1
+	mov p0,#1dh
+	mov p0,#1bh
+	clr p3.1
+	setb p3.2
+	mov p0,#1dh
+	mov p0,#1bh
+	clr p3.2
+	setb p3.3
+	mov p0,#1ch
+	clr p3.3
+	ret
+	
+min13:
+	setb p3.0
+	mov p0,#1dh
+	clr p3.0
+	setb p3.1
+	mov p0,#1eh
+	mov p0,#1ch
+	clr p3.1
+	setb p3.2
+	mov p0,#1eh
+	mov p0,#1ch
+	clr p3.2
+	setb p3.3
+	mov p0,#1dh
+	clr p3.3
+	ret
+	
+min14:
+	setb p3.0
+	mov p0,#1eh
+	clr p3.0
+	setb p3.1
+	mov p0,#1fh
+	mov p0,#1dh
+	clr p3.1
+	setb p3.2
+	mov p0,#1fh
+	mov p0,#1dh
+	clr p3.2
+	setb p3.3
+	mov p0,#1eh
+	clr p3.3
+	ret
+	
+min15:
+	setb p3.0
+	mov p0,#1fh
+	clr p3.0
+	setb p3.1
+	mov p0,#20h
+	mov p0,#1eh
+	clr p3.1
+	setb p3.2
+	mov p0,#20h
+	mov p0,#1eh
+	clr p3.2
+	setb p3.3
+	mov p0,#1fh
+	clr p3.3
+	ret
+	
+	
+min16:
+	setb p3.0
+	mov p0,#20h
+	clr p3.0
+	setb p3.1
+	mov p0,#21h
+	mov p0,#1fh
+	clr p3.1
+	setb p3.2
+	mov p0,#21h
+	mov p0,#1fh
+	clr p3.2
+	setb p3.3
+	mov p0,#20h
+	clr p3.3
+	ret
+	
+min17:
+	setb p3.0
+	mov p0,#21h
+	clr p3.0
+	setb p3.1
+	mov p0,#22h
+	mov p0,#20h
+	clr p3.1
+	setb p3.2
+	mov p0,#22h
+	mov p0,#20h
+	clr p3.2
+	setb p3.3
+	mov p0,#21h
+	clr p3.3
+	ret
+	
+min18:
+	setb p3.0
+	mov p0,#22h
+	clr p3.0
+	setb p3.1
+	mov p0,#23h
+	mov p0,#21h
+	clr p3.1
+	setb p3.2
+	mov p0,#23h
+	mov p0,#21h
+	clr p3.2
+	setb p3.3
+	mov p0,#22h
+	clr p3.3
+	ret
+	
+min19:
+	setb p3.0
+	mov p0,#23h
+	clr p3.0
+	setb p3.1
+	mov p0,#24h
+	mov p0,#22h
+	clr p3.1
+	setb p3.2
+	mov p0,#24h
+	mov p0,#22h
+	clr p3.2
+	setb p3.3
+	mov p0,#23h
+	clr p3.3
+	ret
+	
+min20:
+	setb p3.0
+	mov p0,#24h
+	clr p3.0
+	setb p3.1
+	mov p0,#25h
+	mov p0,#23h
+	clr p3.1
+	setb p3.2
+	mov p0,#25h
+	mov p0,#23h
+	clr p3.2
+	setb p3.3
+	mov p0,#24h
+	clr p3.3
+	ret
+	
+	
+min21:
+	setb p3.0
+	mov p0,#25h
+	clr p3.0
+	setb p3.1
+	mov p0,#26h
+	mov p0,#24h
+	clr p3.1
+	setb p3.2
+	mov p0,#26h
+	mov p0,#24h
+	clr p3.2
+	setb p3.3
+	mov p0,#25h
+	clr p3.3
+	ret
+	
+	
+min22:
+	setb p3.0
+	mov p0,#26h
+	clr p3.0
+	setb p3.1
+	mov p0,#27h
+	mov p0,#25h
+	clr p3.1
+	setb p3.2
+	mov p0,#27h
+	mov p0,#25h
+	clr p3.2
+	setb p3.3
+	mov p0,#26h
+	clr p3.3
+	ret
+	
+min23:
+	setb p3.0
+	mov p0,#27h
+	clr p3.0
+	setb p3.1
+	mov p0,#28h
+	mov p0,#26h
+	clr p3.1
+	setb p3.2
+	mov p0,#28h
+	mov p0,#26h
+	clr p3.2
+	setb p3.3
+	mov p0,#27h
+	clr p3.3
+	ret
+	
+min24:
+	setb p3.0
+	mov p0,#28h
+	clr p3.0
+	setb p3.1
+	mov p0,#29h
+	mov p0,#27h
+	clr p3.1
+	setb p3.2
+	mov p0,#29h
+	mov p0,#27h
+	clr p3.2
+	setb p3.3
+	mov p0,#28h
+	clr p3.3
+	ret
+	
+min25:
+	setb p3.0
+	mov p0,#29h
+	clr p3.0
+	setb p3.1
+	mov p0,#2ah
+	mov p0,#28h
+	clr p3.1
+	setb p3.2
+	mov p0,#2ah
+	mov p0,#28h
+	clr p3.2
+	setb p3.3
+	mov p0,#29h
+	clr p3.3
+	ret
+	
+min26:
+	setb p3.0
+	mov p0,#2ah
+	clr p3.0
+	setb p3.1
+	mov p0,#2bh
+	mov p0,#29h
+	clr p3.1
+	setb p3.2
+	mov p0,#2bh
+	mov p0,#29h
+	clr p3.2
+	setb p3.3
+	mov p0,#2ah
+	clr p3.3
+	ret
+	
+min27:
+	setb p3.0
+	mov p0,#2bh
+	clr p3.0
+	setb p3.1
+	mov p0,#2ch
+	mov p0,#2ah
+	clr p3.1
+	setb p3.2
+	mov p0,#2ch
+	mov p0,#2ah
+	clr p3.2
+	setb p3.3
+	mov p0,#2bh
+	clr p3.3
+	ret
+	
+	
+min28:
+	setb p3.0
+	mov p0,#2ch
+	clr p3.0
+	setb p3.1
+	mov p0,#2dh
+	mov p0,#2bh
+	clr p3.1
+	setb p3.2
+	mov p0,#2dh
+	mov p0,#2bh
+	clr p3.2
+	setb p3.3
+	mov p0,#2ch
+	clr p3.3
+	ret
+	
+	
+min29:
+	setb p3.0
+	mov p0,#2dh
+	clr p3.0
+	setb p3.1
+	mov p0,#2eh
+	mov p0,#2ch
+	clr p3.1
+	setb p3.2
+	mov p0,#2eh
+	mov p0,#2ch
+	clr p3.2
+	setb p3.3
+	mov p0,#2dh
+	clr p3.3
+	ret
+	
+min30:
+	setb p3.0
+	mov p0,#2eh
+	clr p3.0
+	setb p3.1
+	mov p0,#2fh
+	mov p0,#2dh
+	clr p3.1
+	setb p3.2
+	mov p0,#2fh
+	mov p0,#2dh
+	clr p3.2
+	setb p3.3
+	mov p0,#2eh
+	clr p3.3
+	ret
+	
+min31:
+	setb p3.0
+	mov p0,#2fh
+	clr p3.0
+	setb p3.1
+	mov p0,#40h
+	mov p0,#2eh
+	clr p3.1
+	setb p3.2
+	mov p0,#40h
+	mov p0,#2eh
+	clr p3.2
+	setb p3.3
+	mov p0,#2fh
+	clr p3.3
+	ret
+	
+min32:
+	setb p3.0
+	mov p0,#40h
+	clr p3.0
+	setb p3.1
+	mov p0,#41h
+	mov p0,#2fh
+	clr p3.1
+	setb p3.2
+	mov p0,#41h
+	mov p0,#2fh
+	clr p3.2
+	setb p3.3
+	mov p0,#40h
+	clr p3.3
+	ret
+	
+min33:
+	setb p3.0
+	mov p0,#41h
+	clr p3.0
+	setb p3.1
+	mov p0,#42h
+	mov p0,#40h
+	clr p3.1
+	setb p3.2
+	mov p0,#42h
+	mov p0,#40h
+	clr p3.2
+	setb p3.3
+	mov p0,#41h
+	clr p3.3
+	ret
+	
+	
+min34:
+	setb p3.0
+	mov p0,#42h
+	clr p3.0
+	setb p3.1
+	mov p0,#43h
+	mov p0,#41h
+	clr p3.1
+	setb p3.2
+	mov p0,#43h
+	mov p0,#41h
+	clr p3.2
+	setb p3.3
+	mov p0,#42h
+	clr p3.3
+	ret
+	
+min35:
+	setb p3.0
+	mov p0,#43h
+	clr p3.0
+	setb p3.1
+	mov p0,#44h
+	mov p0,#42h
+	clr p3.1
+	setb p3.2
+	mov p0,#44h
+	mov p0,#42h
+	clr p3.2
+	setb p3.3
+	mov p0,#43h
+	clr p3.3
+	ret
+	
+min36:
+	setb p3.0
+	mov p0,#44h
+	clr p3.0
+	setb p3.1
+	mov p0,#45h
+	mov p0,#43h
+	clr p3.1
+	setb p3.2
+	mov p0,#45h
+	mov p0,#43h
+	clr p3.2
+	setb p3.3
+	mov p0,#44h
+	clr p3.3
+	ret
+	
+min37:
+	setb p3.0
+	mov p0,#45h
+	clr p3.0
+	setb p3.1
+	mov p0,#46h
+	mov p0,#44h
+	clr p3.1
+	setb p3.2
+	mov p0,#46h
+	mov p0,#44h
+	clr p3.2
+	setb p3.3
+	mov p0,#45h
+	clr p3.3
+	ret
+	
+min38:
+	setb p3.0
+	mov p0,#46h
+	clr p3.0
+	setb p3.1
+	mov p0,#47h
+	mov p0,#45h
+	clr p3.1
+	setb p3.2
+	mov p0,#47h
+	mov p0,#45h
+	clr p3.2
+	setb p3.3
+	mov p0,#46h
+	clr p3.3
+	ret
+	
+	
+min39:
+	setb p3.0
+	mov p0,#47h
+	clr p3.0
+	setb p3.1
+	mov p0,#48h
+	mov p0,#46h
+	clr p3.1
+	setb p3.2
+	mov p0,#48h
+	mov p0,#46h
+	clr p3.2
+	setb p3.3
+	mov p0,#47h
+	clr p3.3
+	ret
+	
+min40:
+	setb p3.0
+	mov p0,#48h
+	clr p3.0
+	setb p3.1
+	mov p0,#49h
+	mov p0,#47h
+	clr p3.1
+	setb p3.2
+	mov p0,#49h
+	mov p0,#47h
+	clr p3.2
+	setb p3.3
+	mov p0,#48h
+	clr p3.3
+	ret
+	
+min41:
+	setb p3.0
+	mov p0,#49h
+	clr p3.0
+	setb p3.1
+	mov p0,#4ah
+	mov p0,#48h
+	clr p3.1
+	setb p3.2
+	mov p0,#4ah
+	mov p0,#48h
+	clr p3.2
+	setb p3.3
+	mov p0,#49h
+	clr p3.3
+	ret
+	
+min42:
+	setb p3.0
+	mov p0,#4ah
+	clr p3.0
+	setb p3.1
+	mov p0,#4bh
+	mov p0,#49h
+	clr p3.1
+	setb p3.2
+	mov p0,#4bh
+	mov p0,#49h
+	clr p3.2
+	setb p3.3
+	mov p0,#4ah
+	clr p3.3
+	ret
+	
+min43:
+	setb p3.0
+	mov p0,#4bh
+	clr p3.0
+	setb p3.1
+	mov p0,#4ch
+	mov p0,#4ah
+	clr p3.1
+	setb p3.2
+	mov p0,#4ch
+	mov p0,#4ah
+	clr p3.2
+	setb p3.3
+	mov p0,#4bh
+	clr p3.3
+	ret
+	
+min44:
+	setb p3.0
+	mov p0,#4ch
+	clr p3.0
+	setb p3.1
+	mov p0,#4dh
+	mov p0,#4bh
+	clr p3.1
+	setb p3.2
+	mov p0,#4dh
+	mov p0,#4bh
+	clr p3.2
+	setb p3.3
+	mov p0,#4ch
+	clr p3.3
+	ret
+	
+min45:
+	setb p3.0
+	mov p0,#4dh
+	clr p3.0
+	setb p3.1
+	mov p0,#4eh
+	mov p0,#4ch
+	clr p3.1
+	setb p3.2
+	mov p0,#4eh
+	mov p0,#4ch
+	clr p3.2
+	setb p3.3
+	mov p0,#4dh
+	clr p3.3
+	ret
+	
+min46:
+	setb p3.0
+	mov p0,#4eh
+	clr p3.0
+	setb p3.1
+	mov p0,#4fh
+	mov p0,#4dh
+	clr p3.1
+	setb p3.2
+	mov p0,#4fh
+	mov p0,#4dh
+	clr p3.2
+	setb p3.3
+	mov p0,#4eh
+	clr p3.3
+	ret
+	
+min47:
+	setb p3.0
+	mov p0,#4fh
+	clr p3.0
+	setb p3.1
+	mov p0,#80h
+	mov p0,#4eh
+	clr p3.1
+	setb p3.2
+	mov p0,#80h
+	mov p0,#4eh
+	clr p3.2
+	setb p3.3
+	mov p0,#4fh
+	clr p3.3
+	ret
+	
+min48:
+	setb p3.0
+	mov p0,#80h
+	clr p3.0
+	setb p3.1
+	mov p0,#81h
+	mov p0,#4fh
+	clr p3.1
+	setb p3.2
+	mov p0,#81h
+	mov p0,#4fh
+	clr p3.2
+	setb p3.3
+	mov p0,#80h
+	clr p3.3
+	ret
+	
+min49:
+	setb p3.0
+	mov p0,#81h
+	clr p3.0
+	setb p3.1
+	mov p0,#82h
+	mov p0,#80h
+	clr p3.1
+	setb p3.2
+	mov p0,#82h
+	mov p0,#80h
+	clr p3.2
+	setb p3.3
+	mov p0,#81h
+	clr p3.3
+	ret
+	
+min50:
+	setb p3.0
+	mov p0,#82h
+	clr p3.0
+	setb p3.1
+	mov p0,#83h
+	mov p0,#81h
+	clr p3.1
+	setb p3.2
+	mov p0,#83h
+	mov p0,#81h
+	clr p3.2
+	setb p3.3
+	mov p0,#82h
+	clr p3.3
+	ret
+	
+min51:
+	setb p3.0
+	mov p0,#83h
+	clr p3.0
+	setb p3.1
+	mov p0,#84h
+	mov p0,#82h
+	clr p3.1
+	setb p3.2
+	mov p0,#84h
+	mov p0,#82h
+	clr p3.2
+	setb p3.3
+	mov p0,#83h
+	clr p3.3
+	ret
+	
+min52:
+	setb p3.0
+	mov p0,#84h
+	clr p3.0
+	setb p3.1
+	mov p0,#85h
+	mov p0,#83h
+	clr p3.1
+	setb p3.2
+	mov p0,#85h
+	mov p0,#83h
+	clr p3.2
+	setb p3.3
+	mov p0,#84h
+	clr p3.3
+	ret
+	
+min53:
+	setb p3.0
+	mov p0,#85h
+	clr p3.0
+	setb p3.1
+	mov p0,#86h
+	mov p0,#84h
+	clr p3.1
+	setb p3.2
+	mov p0,#86h
+	mov p0,#84h
+	clr p3.2
+	setb p3.3
+	mov p0,#85h
+	clr p3.3
+	ret
+	
+min54:
+	setb p3.0
+	mov p0,#86h
+	clr p3.0
+	setb p3.1
+	mov p0,#87h
+	mov p0,#85h
+	clr p3.1
+	setb p3.2
+	mov p0,#87h
+	mov p0,#85h
+	clr p3.2
+	setb p3.3
+	mov p0,#86h
+	clr p3.3
+	ret
+	
+min55:
+	setb p3.0
+	mov p0,#87h
+	clr p3.0
+	setb p3.1
+	mov p0,#88h
+	mov p0,#86h
+	clr p3.1
+	setb p3.2
+	mov p0,#88h
+	mov p0,#86h
+	clr p3.2
+	setb p3.3
+	mov p0,#87h
+	clr p3.3
+	ret
+	
+min56:
+	setb p3.0
+	mov p0,#88h
+	clr p3.0
+	setb p3.1
+	mov p0,#89h
+	mov p0,#87h
+	clr p3.1
+	setb p3.2
+	mov p0,#89h
+	mov p0,#87h
+	clr p3.2
+	setb p3.3
+	mov p0,#88h
+	clr p3.3
+	ret
+	
+min57:
+	setb p3.0
+	mov p0,#89h
+	clr p3.0
+	setb p3.1
+	mov p0,#8ah
+	mov p0,#88h
+	clr p3.1
+	setb p3.2
+	mov p0,#8ah
+	mov p0,#88h
+	clr p3.2
+	setb p3.3
+	mov p0,#89h
+	clr p3.3
+	ret
+	
+min58:
+	setb p3.0
+	mov p0,#8ah
+	clr p3.0
+	setb p3.1
+	mov p0,#8bh
+	mov p0,#89h
+	clr p3.1
+	setb p3.2
+	mov p0,#8bh
+	mov p0,#89h
+	clr p3.2
+	setb p3.3
+	mov p0,#8ah
+	clr p3.3
+	ret
+	
+min59:
+	setb p3.0
+	mov p0,#8bh
+	clr p3.0
+	setb p3.1
+	mov p0,#8ch
+	mov p0,#8ah
+	clr p3.1
+	setb p3.2
+	mov p0,#8ch
+	mov p0,#8ah
+	clr p3.2
+	setb p3.3
+	mov p0,#8bh
+	clr p3.3
+	ret
+	
+	
+hour0:
+	setb p3.0
+	mov p0,#10h
+	clr p3.0
+	setb p3.1
+	mov p0,#11h
+	mov p0,#8bh
+	clr p3.1
+	setb p3.2
+	mov p0,#10h
+	clr p3.3
+	ret
+	
+hour1:
+	setb p3.0
+	mov p0,#15h
+	clr p3.0
+	setb p3.1
+	mov p0,#16h
+	mov p0,#14h
+	clr p3.1
+	setb p3.2
+	mov p0,#15h
+	clr p3.3
+	ret
+	
+hour2:
+	setb p3.0
+	mov p0,#19h
+	clr p3.0
+	setb p3.1
+	mov p0,#20h
+	mov p0,#18h
+	clr p3.1
+	setb p3.2
+	mov p0,#19h
+	clr p3.3
+	ret
+	
+hour3:
+	setb p3.0
+	mov p0,#1fh
+	clr p3.0
+	setb p3.1
+	mov p0,#20h
+	mov p0,#1eh
+	clr p3.1
+	setb p3.2
+	mov p0,#1fh
+	clr p3.3
+	ret
+	
+hour4:
+	setb p3.0
+	mov p0,#24h
+	clr p3.0
+	setb p3.1
+	mov p0,#25h
+	mov p0,#23h
+	clr p3.1
+	setb p3.2
+	mov p0,#24h
+	clr p3.3
+	ret
+	
+hour5:
+	setb p3.0
+	mov p0,#29h
+	clr p3.0
+	setb p3.1
+	mov p0,#2ah
+	mov p0,#28h
+	clr p3.1
+	setb p3.2
+	mov p0,#29h
+	clr p3.3
+	ret
+	
+hour6:
+	setb p3.0
+	mov p0,#2eh
+	clr p3.0
+	setb p3.1
+	mov p0,#2fh
+	mov p0,#2dh
+	clr p3.1
+	setb p3.2
+	mov p0,#2eh
+	clr p3.3
+	ret
+	
+hour7:
+	setb p3.0
+	mov p0,#43h
+	clr p3.0
+	setb p3.1
+	mov p0,#44h
+	mov p0,#42h
+	clr p3.1
+	setb p3.2
+	mov p0,#43h
+	clr p3.3
+	ret
+	
+	
+hour8:
+	setb p3.0
+	mov p0,#48h
+	clr p3.0
+	setb p3.1
+	mov p0,#49h
+	mov p0,#47h
+	clr p3.1
+	setb p3.2
+	mov p0,#48h
+	clr p3.3
+	ret
+	
+hour9:
+	setb p3.0
+	mov p0,#4dh
+	clr p3.0
+	setb p3.1
+	mov p0,#4eh
+	mov p0,#4ch
+	clr p3.1
+	setb p3.2
+	mov p0,#4dh
+	clr p3.3
+	ret
+	
+hour10:
+	setb p3.0
+	mov p0,#82h
+	clr p3.0
+	setb p3.1
+	mov p0,#83h
+	mov p0,#81h
+	clr p3.1
+	setb p3.2
+	mov p0,#82h
+	clr p3.3
+	ret
+	
+hour11:
+	setb p3.0
+	mov p0,#87h
+	clr p3.0
+	setb p3.1
+	mov p0,#88h
+	mov p0,#86h
+	clr p3.1
+	setb p3.2
+	mov p0,#87h
+	clr p3.3
+	ret	
+	
+	end
