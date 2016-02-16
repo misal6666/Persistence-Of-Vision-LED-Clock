@@ -1,0 +1,139 @@
+org 0010h
+mov p0,#00h
+mov p1,#00h
+mov p2,#00h
+mov p3,#00h
+
+start:
+back:
+acall left1
+acall left2
+acall left3
+acall left3
+acall left2
+acall left1
+acall right1
+acall right2
+acall right3
+acall right3
+acall right2
+acall right1
+sjmp back
+
+
+centre:
+setb p1.6
+setb p1.7
+setb p3.0
+setb p3.1
+setb p3.2
+setb p1.2
+ret
+
+
+
+centreclear:
+clr p1.6
+clr p1.7
+clr p3.0
+clr p3.1
+clr p3.2
+clr p1.2
+ret
+
+
+
+left1:
+setb p1.1
+setb p1.5
+acall centre
+acall delay
+acall delay
+clr p1.1
+clr p1.5
+acall centreclear
+ret
+
+
+
+
+left2:
+setb p1.0
+setb p1.4
+acall centre
+call delay
+acall delay
+clr p1.0
+clr p1.4
+acall centreclear
+ret
+
+
+
+
+left3:
+setb p1.3
+setb p0.7
+acall centre
+acall delay
+acall delay
+clr p1.3
+clr p0.7
+acall centreclear
+ret
+
+
+
+
+right1:
+setb p3.3
+setb p1.1
+acall centre
+acall delay
+acall delay
+clr p3.6
+clr p1.0
+acall centreclear
+ret
+
+
+
+
+right2:
+setb p3.4
+setb p1.0
+acall centre
+acall delay
+acall delay
+clr p3.4
+clr p1.0
+acall centreclear
+ret
+
+
+
+
+right3:
+setb p3.5
+setb p0.7
+acall centre
+acall delay
+acall delay
+clr p3.5
+clr p0.7
+acall centreclear
+ret
+
+
+
+delay:
+clr tr0
+clr tf0
+mov tmod,#01h
+mov tl0,#18h
+mov th0,#5dh
+setb tr0
+here:jnb tf0, here
+ret
+
+end
